@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="43cm" height="29cm" viewBox="-70 419 854 567" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <ellipse style="fill: #000000" cx="130" cy="481" rx="10" ry="10"/>
+  <g>
+    <rect style="fill: #ffffff" x="240" y="420" width="46.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="240" y="420" width="46.3" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="263.15" y="442.8">
+      <tspan x="263.15" y="442.8">:GUI</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="250" y1="445.45" x2="276.3" y2="445.45"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="457" y="420" width="98.85" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="457" y="420" width="98.85" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="506.425" y="442.8">
+      <tspan x="506.425" y="442.8">:UserManager</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="467" y1="445.45" x2="545.85" y2="445.45"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="657" y="420" width="126.05" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="657" y="420" width="126.05" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="720.025" y="442.8">
+      <tspan x="720.025" y="442.8">:DatabaseManager</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="667" y1="445.45" x2="773.05" y2="445.45"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="263.15" y1="456" x2="263.15" y2="480"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="263.15" y1="980" x2="263.15" y2="985"/>
+    <rect style="fill: #ffffff" x="256.15" y="480" width="14" height="500"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="256.15" y="480" width="14" height="500"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="506.426" y1="456" x2="506.426" y2="590"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="506.426" y1="860" x2="506.426" y2="868"/>
+    <rect style="fill: #ffffff" x="499.426" y="590" width="14" height="270"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="499.426" y="590" width="14" height="270"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="720.026" y1="456" x2="720.026" y2="615"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="720.026" y1="795" x2="720.026" y2="804"/>
+    <rect style="fill: #ffffff" x="713.026" y="615" width="14" height="180"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="713.026" y="615" width="14" height="180"/>
+  </g>
+  <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="130.144" y="444.788">
+    <tspan x="130.144" y="444.788">Login</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="239.151" y1="480.146" x2="140" y2="481"/>
+    <polygon style="fill: #000000" points="239.194,485.146 255.15,480.009 239.108,475.147 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="239.194,485.146 255.15,480.009 239.108,475.147 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="482.426" y1="590" x2="270.15" y2="590"/>
+    <polygon style="fill: #000000" points="482.426,595 498.426,590 482.426,585 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="482.426,595 498.426,590 482.426,585 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="387.5" y="582">Login(username, password, role)</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="256.15" y1="515" x2="224" y2="515"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="224" y1="515" x2="224" y2="546"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="239.15" y1="546" x2="224" y2="546"/>
+    <polygon style="fill: #000000" points="239.15,551 255.15,546 239.15,541 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="239.15,551 255.15,546 239.15,541 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="113" y="508">verified = VerifyLoginCreds(username, password)</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="142" y1="569.13" x2="256.15" y2="570"/>
+    <polygon style="fill: #000000" points="142.038,564.13 126,569.008 141.961,574.129 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="142.038,564.13 126,569.008 141.961,574.129 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="197.5" y="565.5">[verified = False]</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="110" cy="569" rx="15" ry="15"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="110" cy="569" rx="15" ry="15"/>
+    <ellipse style="fill: #000000" cx="110" cy="569" rx="10" ry="10"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="499.426" y1="705" x2="464" y2="705"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="464" y1="705" x2="464" y2="737"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="482.426" y1="737" x2="464" y2="737"/>
+    <polygon style="fill: #000000" points="482.426,742 498.426,737 482.426,732 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="482.426,742 498.426,737 482.426,732 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="409" y="699">saltPass = HashSalt(password)</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="696.026" y1="615" x2="513.426" y2="615"/>
+    <polygon style="fill: #000000" points="696.026,620 712.026,615 696.026,610 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="696.026,620 712.026,615 696.026,610 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="615" y="606">GetAccountLock(username, role)</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="530.426" y1="640" x2="713.026" y2="640"/>
+    <polygon style="fill: #000000" points="530.426,635 514.426,640 530.426,645 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="530.426,635 514.426,640 530.426,645 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="613" y="636">accountLocked</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="298.2" cy="664.4" rx="15" ry="15"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="298.2" cy="664.4" rx="15" ry="15"/>
+    <ellipse style="fill: #000000" cx="298.2" cy="664.4" rx="10" ry="10"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="330.2" y1="664.455" x2="499.426" y2="665"/>
+    <polygon style="fill: #000000" points="330.216,659.455 314.2,664.403 330.184,669.455 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="330.216,659.455 314.2,664.403 330.184,669.455 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="405.5" y="654">[accountLocked = True]</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="696.026" y1="755" x2="513.426" y2="755"/>
+    <polygon style="fill: #000000" points="696.026,760 712.026,755 696.026,750 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="696.026,760 712.026,755 696.026,750 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="608" y="749">GetPassword(username, role)</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="530.426" y1="780" x2="713.026" y2="780"/>
+    <polygon style="fill: #000000" points="530.426,775 514.426,780 530.426,785 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="530.426,775 514.426,780 530.426,785 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="613.512" y="776">storedPass</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="499.426" y1="795" x2="463" y2="795"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="463" y1="795" x2="463" y2="828"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="482.426" y1="828" x2="463" y2="828"/>
+    <polygon style="fill: #000000" points="482.426,833 498.426,828 482.426,823 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="482.426,833 498.426,828 482.426,823 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="389" y="789">IsValidPassword(saltPass, storedPass)</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="287.15" y1="855" x2="499.426" y2="855"/>
+    <polygon style="fill: #000000" points="287.15,850 271.15,855 287.15,860 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="287.15,850 271.15,855 287.15,860 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="385" y="852">validPassword</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="256.15" y1="870" x2="221" y2="870"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="221" y1="870" x2="221" y2="902"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="239.15" y1="902" x2="221" y2="902"/>
+    <polygon style="fill: #000000" points="239.15,907 255.15,902 239.15,897 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="239.15,907 255.15,902 239.15,897 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="104" y="862">[validPassword = True] Redirect(roleHomePageURL)</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="256.15" y1="935" x2="218.826" y2="935"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="218.826" y1="935" x2="218.826" y2="967.4"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="239.15" y1="967.4" x2="218.826" y2="967.4"/>
+    <polygon style="fill: #000000" points="239.15,972.4 255.15,967.4 239.15,962.4 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="239.15,972.4 255.15,967.4 239.15,962.4 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="92" y="929">[validPassword = False] DisplayError(badLoginCredsMsg)</text>
+  </g>
+</svg>

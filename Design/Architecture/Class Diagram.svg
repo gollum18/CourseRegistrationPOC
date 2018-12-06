@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="69cm" height="78cm" viewBox="99 -431 1373 1544" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="120" y="80" width="264.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="120" y="80" width="264.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="252.05" y="100">User</text>
+    <rect style="fill: #ffffff" x="120" y="108" width="264.1" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="120" y="108" width="264.1" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="123" y="121.2">-UniversityID: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="123" y="137.2">-FirstName: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="123" y="153.2">-LastName: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="123" y="169.2">-PhoneNumber: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="123" y="185.2">-Email: String</text>
+    <rect style="fill: #ffffff" x="120" y="192" width="264.1" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="120" y="192" width="264.1" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="123" y="205.2">+ToString(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="123" y="221.2">+GetHashCode(): Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="123" y="237.2">+Equals(in other:Object): boolean</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="460" y="80" width="264.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="80" width="264.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="592.05" y="100">Admin</text>
+    <rect style="fill: #ffffff" x="460" y="108" width="264.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="108" width="264.1" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="121.2">-AdminID: Integer</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="463" y1="127.6" x2="593.9" y2="127.6"/>
+    <rect style="fill: #ffffff" x="460" y="128" width="264.1" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="128" width="264.1" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="141.2">+ToString(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="157.2">+GetHashCode(): Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="173.2">+Equals(in other:Object): boolean</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="460" y="240" width="264.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="240" width="264.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="592.05" y="260">Instructor</text>
+    <rect style="fill: #ffffff" x="460" y="268" width="264.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="268" width="264.1" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="281.2">-InstructorID: Integer</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="463" y1="287.6" x2="632.4" y2="287.6"/>
+    <rect style="fill: #ffffff" x="460" y="288" width="264.1" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="288" width="264.1" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="301.2">+ToString(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="317.2">+GetHashCode(): Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="333.2">+Equals(in other:Object): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="349.2">+GetAdvisees(): List&lt;Student&gt;</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="120" y="300" width="264.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="120" y="300" width="264.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="252.05" y="320">Student</text>
+    <rect style="fill: #ffffff" x="120" y="328" width="264.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="120" y="328" width="264.1" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="123" y="341.2">-StudentID: Integer</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="123" y1="347.6" x2="269.3" y2="347.6"/>
+    <rect style="fill: #ffffff" x="120" y="348" width="264.1" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="120" y="348" width="264.1" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="123" y="361.2">+ToString(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="123" y="377.2">+GetHashCode(): Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="123" y="393.2">+Equals(in other:Object): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="123" y="409.2">+GetGrades(): List&lt;Grade&gt;</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="252.05,262.236 252.05,261 252.05,299 252.05,300 "/>
+    <polygon style="fill: #ffffff" points="260.05,262.236 252.05,246.236 244.05,262.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="260.05,262.236 252.05,246.236 244.05,262.236 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="402.336,202 430.05,202 430.05,298 460,298 "/>
+    <polygon style="fill: #ffffff" points="402.336,194 386.336,202 402.336,210 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="402.336,194 386.336,202 402.336,210 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="402.336,150 430.05,150 430.05,138 460,138 "/>
+    <polygon style="fill: #ffffff" points="402.336,142 386.336,150 402.336,158 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="402.336,142 386.336,150 402.336,158 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="460" y="400" width="441.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="400" width="441.2" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="680.6" y="420">Course</text>
+    <rect style="fill: #ffffff" x="460" y="428" width="441.2" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="428" width="441.2" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="441.2">-Integer: CourseID</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="457.2">-CourseNo: Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="473.2">-Credits: Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="489.2">-Name: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="505.2">-Description: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="521.2">-Archived: boolean</text>
+    <rect style="fill: #ffffff" x="460" y="528" width="441.2" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="528" width="441.2" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="541.2">+Equals(in other:Object): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="557.2">+GetHashCode(): Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="573.2">+ToString(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="463" y="589.2">+GetSections(term:Tuple&lt;String, Integer&gt;): List&lt;Section&gt;</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="100" y="480" width="279.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="100" y="480" width="279.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="239.75" y="500">Section</text>
+    <rect style="fill: #ffffff" x="100" y="508" width="279.5" height="180"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="100" y="508" width="279.5" height="180"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="521.2">-SectionID: Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="537.2">-Building: Tuple&lt;String, String&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="553.2">-Semester: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="569.2">-Room: Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="585.2">-SectionNo: Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="601.2">-MaxEnrollment: Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="617.2">-Year: Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="633.2">-StartTime: Time</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="649.2">-EndTime: Time</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="665.2">-StartDate: Date</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="681.2">-EndDate: Date</text>
+    <rect style="fill: #ffffff" x="100" y="688" width="279.5" height="132"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="100" y="688" width="279.5" height="132"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="701.2">+Equals(in other:Object): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="717.2">+GetHashCode(): Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="733.2">+ToString(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="749.2">+GetTerm(): Tuple&lt;String, Integer&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="765.2">+GetTimes(): Tuple&lt;Time, Time&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="781.2">+GetDates(): Tuple&lt;Date, Date&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="797.2">+GetStudents(): List&lt;Student&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="103" y="813.2">+GetInstructors(): List&lt;Instructor&gt;</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="800" y="-360" width="487.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="-360" width="487.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1043.7" y="-340">DatabaseManager</text>
+    <rect style="fill: #ffffff" x="800" y="-332" width="487.4" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="-332" width="487.4" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-318.8">-Instance: DatabaseManager</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-302.8">-ConnectionString: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-286.8">-ReadWriteLock: BinarySemaphore</text>
+    <rect style="fill: #ffffff" x="800" y="-280" width="487.4" height="580"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="-280" width="487.4" height="580"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-266.8">-DatabaseManager(conString:String)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-250.8">+SetRWLock(in lock:boolean): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-234.8">+IsLocked(): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-218.8">+DoesCourseExist(department:String,in name:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-202.8">                 in number:Integer): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-186.8">+AddCourse(department:String,course:Course): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-170.8">+GetSchools(): List&lt;School&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-154.8">+GetDepartments(in schoolID:Integer): List&lt;Department&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-138.8">+GetCourses(in departmentID:Integer): List&lt;Course&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-122.8">+GetCourses(in term:Tuple&lt;String, Integer&gt;): List&lt;Course&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-106.8">+GetSections(in courseID:Integer,in term:Tuple&lt;String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-90.8">              Integer&gt;): List&lt;Section&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-74.8">+AddSection(in section:Section): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-58.8">+SetArchived(in courseID:Integer,in archived:boolean): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-42.8">+CreateUser(in userInfo:Tuple&lt;String, String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-26.8">             String, String, String&gt;): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="-10.8">+GetAccountLock(in username:String,in role:String): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="5.2">+GetPassword(in username:String,in role:String): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="21.2">+ModifyCourse(in courseID:Integer,in courseInfo:Map&lt;String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="37.2">               Object&gt;): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="53.2">+GetAdvisees(in instructorID:Integer): List&lt;Student&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="69.2">+GetSchedule(in studentID:Integer,in term:Tuple&lt;String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="85.2">              Integer&gt;): List&lt;Section&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="101.2">+GetGrades(in studentID:Integer): List&lt;Tuple&lt;String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="117.2">            String&gt;&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="133.2">+AddSectionViaOverride(in scheduleID:Integer,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="149.2">                       in sectionID:Integer): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="165.2">+RemoveSection(in sectionID:Integer): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="181.2">+LockAccount(in username:String,in email:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="197.2">             in email:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="213.2">+UnlockAccount(in username:String,in role:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="229.2">+UpdatePassword(in username:String,in saltPass:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="245.2">                in role:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="261.2">+DropSection(in studentID:Integer,in scheduleID:Integer,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="277.2">             in sectionID:Integer): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="293.2">+GetCatalog(): List&lt;Course&gt;</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="960" y="340" width="264.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="960" y="340" width="264.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1092.05" y="360">School</text>
+    <rect style="fill: #ffffff" x="960" y="368" width="264.1" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="960" y="368" width="264.1" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="381.2">-SchoolID: Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="397.2">-Name: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="413.2">-Abbreviation: String</text>
+    <rect style="fill: #ffffff" x="960" y="420" width="264.1" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="960" y="420" width="264.1" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="433.2">+Equals(in other:Object): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="449.2">+GetHashCode(): Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="465.2">+ToString(): String</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1043.7,-385.172 1043.7,-395 779,-395 779,-270 800,-270 "/>
+    <polygon style="fill: #ffffff" points="1043.7,-360 1038.9,-374 1043.7,-388 1048.5,-374 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1043.7,-360 1038.9,-374 1043.7,-388 1048.5,-374 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="911.35" y="-399"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1054.7" y="-364"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="796" y="-274"></text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="-380" width="541.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="-380" width="541.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="410.65" y="-360">CourseManager</text>
+    <rect style="fill: #ffffff" x="140" y="-352" width="541.3" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="-352" width="541.3" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-338.8">-Instance: CourseManager</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-322.8">-Schools: Map&lt;Integer, List&lt;Department&gt;&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-306.8">-Courses: Map&lt;Integer, List&lt;Course&gt;&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-290.8">-Sections: Map&lt;Tuple&lt;Integer, Tuple&lt;String, Integer&gt;&gt;, List&lt;Section&gt;&gt;</text>
+    <rect style="fill: #ffffff" x="140" y="-284" width="541.3" height="308"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="-284" width="541.3" height="308"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-270.8">-CourseManager()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-254.8">+GetInstance(): CourseManager</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-238.8">+GetSchools(): List&lt;School&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-222.8">+GetDepartments(in schoolID:Integer): List&lt;Department&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-206.8">+GetCourses(in departmentID:Integer): List&lt;Course&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-190.8">+GetSections(in courseID:Integer,in term:Tuple&lt;String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-174.8">              Integer&gt;): List&lt;Section&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-158.8">+AddCourse(in course:Tuple&lt;Integer, Integer,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-142.8">            String, String&gt;&gt;): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-126.8">+AddSection(in section:Tuple&lt;Integer, Integer,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-110.8">             Integer, Integer, Integer, Integer,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-94.8">             Time, Time, Date, Date&gt;): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-78.8">+SetArchived(in courseID:Integer,in archived:boolean): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-62.8">+ModifyCourse(in courseID:Integer,in courseInfo:Map&lt;String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-46.8">               Object&gt;): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-30.8">+RemoveSection(in sectionID:Integer): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="-14.8">+UpdatePassword(in username:String,in password:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="1.2">                in role:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="143" y="17.2">+GetCatalog(): List&lt;Course&gt;</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="410.65,-405.172 410.65,-415 702.3,-415 702.3,-310 681.3,-310 "/>
+    <polygon style="fill: #ffffff" points="410.65,-380 405.85,-394 410.65,-408 415.45,-394 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="410.65,-380 405.85,-394 410.65,-408 415.45,-394 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="556.475" y="-419"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="421.65" y="-384"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="685.3" y="-314"></text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="960" y="500" width="264.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="960" y="500" width="264.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1092.05" y="520">Department</text>
+    <rect style="fill: #ffffff" x="960" y="528" width="264.1" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="960" y="528" width="264.1" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="541.2">-DepartmentID: Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="557.2">-SchoolID: Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="573.2">-Name: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="589.2">-Abbreviation: String</text>
+    <rect style="fill: #ffffff" x="960" y="596" width="264.1" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="960" y="596" width="264.1" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="609.2">+Equals(in other:Object): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="625.2">+GetHashCode(): Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="641.2">+ToString(): String</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="400" y="620" width="518.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="400" y="620" width="518.2" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="659.1" y="640">UserManager</text>
+    <rect style="fill: #ffffff" x="400" y="648" width="518.2" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="400" y="648" width="518.2" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="661.2">-Instance: UserManager</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="677.2">+ResetCounters: Map&lt;Tuple&lt;String, String&gt;, Integer&gt;</text>
+    <rect style="fill: #ffffff" x="400" y="684" width="518.2" height="388"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="400" y="684" width="518.2" height="388"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="697.2">-UserManager()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="713.2">+GetInstance(): UserManager</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="729.2">+CreateUser(in userInfo:Tuple&lt;String, String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="745.2">             String, String, String&gt;): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="761.2">+Login(in username:String,in password:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="777.2">       in role:String): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="793.2">-HashSalt(in password:String): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="809.2">-IsValidPassword(in saltPass:String,in storedPass:String): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="825.2">+GetAdvisees(in instructorID:Integer): List&lt;Student&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="841.2">+GetSchedule(in studentID:Integer,in term:Tuple&lt;String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="857.2">              Integer&gt;): List&lt;Section&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="873.2">+AddSectionViaOverride(in scheduleID:Integer,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="889.2">                       in sectionID:Integer): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="905.2">+GetGrades(in studentID:Integer): List&lt;Tuple&lt;String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="921.2">            String&gt;&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="937.2">+GenerateSecretCode(in username:String,in email:String): Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="953.2">+SendCode(in email:String,in code:Integer): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="969.2">+CheckCodeFromEmail(in codeFromEmail:Integer,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="985.2">                    in code:Integer): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="1001.2">+IncrementResetCounter(in username:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="1017.2">                       in role:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="1033.2">+GetResetCounter(in username:String,in role:String): Integer</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="1049.2">+DropSection(in studentID:Integer,in scheduleID:Integer,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="1065.2">             in sectionID:Integer): void</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="659.1,1097.17 659.1,1107 939.2,1107 939.2,870 918.2,870 "/>
+    <polygon style="fill: #ffffff" points="659.1,1072 663.9,1086 659.1,1100 654.3,1086 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="659.1,1072 663.9,1086 659.1,1100 654.3,1086 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="799.15" y="1103"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="670.1" y="1084"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="922.2" y="866"></text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="960" y="680" width="510.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="960" y="680" width="510.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1215.25" y="700">GUI</text>
+    <rect style="fill: #ffffff" x="960" y="708" width="510.5" height="404"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="960" y="708" width="510.5" height="404"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="721.2">+DisplayError(in msg:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="737.2">+DisplaySchools(in List&lt;School&gt;): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="753.2">+DisplayDepartments(in departments:List&lt;Department&gt;): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="769.2">+DisplayCourse(in course:Course): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="785.2">+DisplayCourses(in courses:List&lt;Course&gt;): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="801.2">+DisplayCourses(in term:Tuple&lt;String, Integer&gt;,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="817.2">                in courses:List&lt;Course&gt;): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="833.2">+DisplaySection(in section:Section): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="849.2">+DisplaySections(in section:List&lt;Section&gt;): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="865.2">+DisplaySections(in term:Tuple&lt;String, Integer&gt;,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="881.2">                 in sections:List&lt;Section&gt;): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="897.2">+ValidateNewUser(in userInfo:Tuple&lt;String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="913.2">                  String, String, String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="929.2">                  String)): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="945.2">+DisplayMessage(in msg:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="961.2">+DisplayEnrolled(in enrolled:List&lt;Section&gt;): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="977.2">+VerifyLoginCreds(in username:String,in password:String): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="993.2">+Redirect(in url:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="1009.2">+Logout(in username:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="1025.2">+ModifyCourse(in course:Course): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="1041.2">+DisplayAdvisees(in Advisees:List&lt;Student&gt;): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="1057.2">+DisplaySchedule(in name:String,in schedule:List&lt;Section&gt;): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="1073.2">+DisplayGrades(in name:String,in grades:List&lt;Tuple&lt;String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="1089.2">                String&gt;&gt;): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="963" y="1105.2">+DisplayCatalog(in catalog:List&lt;Course&gt;): void</text>
+  </g>
+</svg>

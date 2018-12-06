@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="45cm" height="22cm" viewBox="-14 59 897 422" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="280" y="60" width="46.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="280" y="60" width="46.3" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="303.15" y="82.8">
+      <tspan x="303.15" y="82.8">:GUI</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="290" y1="85.45" x2="316.3" y2="85.45"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="450" y="60" width="112.25" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="450" y="60" width="112.25" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="506.125" y="82.8">
+      <tspan x="506.125" y="82.8">:CourseManager</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="460" y1="85.45" x2="552.25" y2="85.45"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="756" y="60" width="126.05" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="756" y="60" width="126.05" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="819.025" y="82.8">
+      <tspan x="819.025" y="82.8">:DatabaseManager</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="766" y1="85.45" x2="872.05" y2="85.45"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="303.15" y1="96" x2="303.15" y2="121"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="303.15" y1="461" x2="303.15" y2="480"/>
+    <rect style="fill: #ffffff" x="296.15" y="121" width="14" height="340"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="296.15" y="121" width="14" height="340"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="506.126" y1="96" x2="506.126" y2="147"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="506.126" y1="337" x2="506.126" y2="342"/>
+    <rect style="fill: #ffffff" x="499.126" y="147" width="14" height="190"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="499.126" y="147" width="14" height="190"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="819.024" y1="96" x2="819.024" y2="167"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="819.024" y1="407" x2="819.024" y2="431"/>
+    <rect style="fill: #ffffff" x="812.024" y="167" width="14" height="240"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="812.024" y="167" width="14" height="240"/>
+  </g>
+  <ellipse style="fill: #000000" cx="97" cy="121" rx="10" ry="10"/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="279.15" y1="121" x2="107" y2="121"/>
+    <polygon style="fill: #000000" points="279.15,126 295.15,121 279.15,116 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="279.15,126 295.15,121 279.15,116 "/>
+  </g>
+  <text font-size="14.6756" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="189" y="91">
+    <tspan x="189" y="91">Add Course</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="795.024" y1="167" x2="513.126" y2="167"/>
+    <polygon style="fill: #000000" points="795.024,172 811.024,167 795.024,162 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="795.024,172 811.024,167 795.024,162 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="653" y="161">DoesCourseExist(department, name, number)</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="532.3" y1="192" x2="812.024" y2="192"/>
+    <polygon style="fill: #000000" points="532.3,187 516.3,192 532.3,197 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="532.3,187 516.3,192 532.3,197 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="662.212" y="189">courseExists</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="327.15" y1="216.09" x2="499.126" y2="217"/>
+    <polygon style="fill: #000000" points="327.176,211.09 311.15,216.005 327.123,221.09 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="327.176,211.09 311.15,216.005 327.123,221.09 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="404" y="212">courseExists</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="119" cy="286" rx="15" ry="15"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="119" cy="286" rx="15" ry="15"/>
+    <ellipse style="fill: #000000" cx="119" cy="286" rx="10" ry="10"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="296.15" y1="231" x2="261.6" y2="231"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="261.6" y1="231" x2="261.6" y2="266"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="279.15" y1="266" x2="261.6" y2="266"/>
+    <polygon style="fill: #000000" points="279.15,271 295.15,266 279.15,261 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="279.15,271 295.15,266 279.15,261 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="145" y="224">[courseExists = True] DisplayError(courseExistsMsg)</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="151" y1="286" x2="296.15" y2="286"/>
+    <polygon style="fill: #000000" points="151,281 135,286 151,291 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="151,281 135,286 151,291 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="221.35" y="281.5">[courseExists = True]</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="482.126" y1="146.91" x2="310.15" y2="146"/>
+    <polygon style="fill: #000000" points="482.1,151.91 498.126,146.995 482.153,141.91 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="482.1,151.91 498.126,146.995 482.153,141.91 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="406.912" y="138">AddCourse(department, course)</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="795.024" y1="286.943" x2="513.126" y2="286"/>
+    <polygon style="fill: #000000" points="795.007,291.943 811.024,286.997 795.041,281.943 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="795.007,291.943 811.024,286.997 795.041,281.943 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="655.824" y="279">AddCourse(department, course)</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="530.126" y1="306.057" x2="812.024" y2="307"/>
+    <polygon style="fill: #000000" points="530.143,301.057 514.126,306.003 530.109,311.057 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="530.143,301.057 514.126,306.003 530.109,311.057 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="661.124" y="303.5">courseAdded</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="327.15" y1="326" x2="499.126" y2="326"/>
+    <polygon style="fill: #000000" points="327.15,321 311.15,326 327.15,331 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="327.15,321 311.15,326 327.15,331 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="403.188" y="323">courseAdded</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="296.15" y1="341" x2="261.85" y2="341"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="261.85" y1="341" x2="261.85" y2="378"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="279.15" y1="378" x2="261.85" y2="378"/>
+    <polygon style="fill: #000000" points="279.15,383 295.15,378 279.15,373 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="279.15,383 295.15,378 279.15,373 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="163.925" y="334">[courseAdded = True] DisplayCourse(course)</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="296.15" y1="401" x2="258.85" y2="401"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="258.85" y1="401" x2="258.85" y2="439"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="279.15" y1="439" x2="258.85" y2="439"/>
+    <polygon style="fill: #000000" points="279.15,444 295.15,439 279.15,434 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="279.15,444 295.15,439 279.15,434 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="139.425" y="395.5">[courseAdded = False] DisplayError(courseAddedMsg)</text>
+  </g>
+</svg>

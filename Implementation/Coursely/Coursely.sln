@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CourselySource", "CourselySource", "{DC2C62E6-E5A0-4625-AFBC-3B231174B83E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CourselyTest", "CourselyTest", "{7FDE204D-2C45-4509-BEAD-C9A986E222BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursely", "Coursely\Coursely.csproj", "{3C3722CE-1457-4C51-86BA-F01F8E3B1393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourselyTests", "..\..\Testing\CourselyTests\CourselyTests.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C3722CE-1457-4C51-86BA-F01F8E3B1393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3722CE-1457-4C51-86BA-F01F8E3B1393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3722CE-1457-4C51-86BA-F01F8E3B1393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3722CE-1457-4C51-86BA-F01F8E3B1393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C3722CE-1457-4C51-86BA-F01F8E3B1393} = {DC2C62E6-E5A0-4625-AFBC-3B231174B83E}
+		{8EDF4429-251A-416D-BB68-93F227191BCF} = {7FDE204D-2C45-4509-BEAD-C9A986E222BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE43BCAA-0C3F-40A3-BD94-490A560ED71B}
+	EndGlobalSection
+EndGlobal

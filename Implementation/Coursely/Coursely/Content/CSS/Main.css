@@ -1,0 +1,36 @@
+﻿/* Adapted from: 
+    https://stackoverflow.com/questions/8720931/can-css-detect-the-number-of-children-an-element-has */
+
+.tabbutton {
+    text-align: center;
+    background-color:white;
+    float:left;
+}
+
+    .tabbutton:hover {
+        background-color: #e9ecef;
+    }
+
+    /* one item */
+    .tabbutton:first-child:nth-last-child(1) {
+        /* -or- li:only-child { */
+        width: 100%;
+    }
+
+    /* two items */
+    .tabbutton:first-child:nth-last-child(2),
+    .tabbutton:first-child:nth-last-child(2) ~ .tabbutton {
+        width: 50%;
+    }
+
+    /* three items */
+    .tabbutton:first-child:nth-last-child(3),
+    .tabbutton:first-child:nth-last-child(3) ~ .tabbutton {
+        width: 33.3333%;
+    }
+
+    /* four items */
+    .tabbutton:first-child:nth-last-child(4),
+    .tabbutton:first-child:nth-last-child(4) ~ .tabbutton {
+        width: 25%;
+    }

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="36cm" height="25cm" viewBox="139 19 702 482" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="140" y="20" width="700" height="480"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="20" width="700" height="480"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="20" width="700" height="60"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="20" width="700" height="60"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="490" y="50">
+    <tspan x="490" y="50"></tspan>
+  </text>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="490" y="57.725">
+    <tspan x="490" y="57.725">COURSELY - User Management</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="80" width="700" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="80" width="700" height="40"/>
+  </g>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="200" y="106.375">
+    <tspan x="200" y="106.375"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="800" y="120" width="40" height="380"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="120" width="40" height="380"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="780" y="100">
+    <tspan x="780" y="100"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="120" width="660" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="120" width="660" height="40"/>
+  </g>
+  <text font-size="14.6756" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="490" y="105.825">
+    <tspan x="490" y="105.825">Add User</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="120" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="120" width="120" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="200" y="145.075">
+    <tspan x="200" y="145.075">Home</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="200" y="140">
+    <tspan x="200" y="140"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="243" y="254" width="160" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="243" y="254" width="160" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="323" y="279.075">
+    <tspan x="323" y="279.075">[Department]</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="275.932" y="251.235">
+    <tspan x="275.932" y="251.235">Pasword:</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="415" y="370.075">
+    <tspan x="415" y="370.075">Role:</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="392" y="372" width="160" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="392" y="372" width="160" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="456" y="397.075">
+    <tspan x="456" y="397.075">[Role]</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="244" y="312" width="160" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="244" y="312" width="160" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="277" y="308.075">
+    <tspan x="277" y="308.075">Email:</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="324" y="337.075">
+    <tspan x="324" y="337.075">[Email]</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="598" y="430" width="160" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="598" y="430" width="160" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="678" y="455.075">
+    <tspan x="678" y="455.075">Add User</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="165.2" y="430.4" width="414.8" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="165.2" y="430.4" width="414.8" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="372.6" y="455.475">
+    <tspan x="372.6" y="455.475">[Error Messages]</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="244" y="193" width="159" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="244" y="193" width="159" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="323.5" y="218.075">
+    <tspan x="323.5" y="218.075">[School]</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="282.09" y="188.507">
+    <tspan x="282.09" y="188.507">Username:</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="530.2" y="193.125" width="160" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="530.2" y="193.125" width="160" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="569.2" y="189.2">
+    <tspan x="569.2" y="189.2">First Name:</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="610.2" y="218.201">
+    <tspan x="610.2" y="218.201">[First Name]</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="529.4" y="253.726" width="160" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="529.4" y="253.726" width="160" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="568.4" y="249.801">
+    <tspan x="568.4" y="249.801">Last Name:</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="609.4" y="278.801">
+    <tspan x="609.4" y="278.801">[First Name]</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="530.2" y="312.124" width="160" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="530.2" y="312.124" width="160" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="578.2" y="308.201">
+    <tspan x="578.2" y="308.201">Phone Number:</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="610.2" y="337.199">
+    <tspan x="610.2" y="337.199">[Phone Number]</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="513" y="372" width="40" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="513" y="372" width="40" height="40"/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="523,372 523,392 513,392 533,412 553,392 543,392 543,372 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="523,372 523,392 513,392 533,412 553,392 543,392 543,372 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="523,372 523,392 513,392 533,412 553,392 543,392 543,372 "/>
+  </g>
+</svg>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="37cm" height="22cm" viewBox="279 139 722 422" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="280" y="160" width="320" height="160"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="280" y="160" width="320" height="160"/>
+    <rect style="fill: #ffffff" x="280" y="140" width="142.6" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="280" y="140" width="142.6" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="282" y="154">Presentation Layer</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="680" y="399" width="320" height="160"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="680" y="399" width="320" height="160"/>
+    <rect style="fill: #ffffff" x="680" y="379" width="81" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="680" y="379" width="81" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="682" y="393">Data Layer</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="280" y="400" width="320" height="160"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="280" y="400" width="320" height="160"/>
+    <rect style="fill: #ffffff" x="280" y="380" width="104.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="280" y="380" width="104.1" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="282" y="394">Logical Layer</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="340" y="182" width="80" height="52" rx="10" ry="10"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="340" y="182" width="80" height="52" rx="10" ry="10"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="380" y="204.8">
+      <tspan x="380" y="204.8">HTML</tspan>
+      <tspan x="380" y="220.8">ASP.NET</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="400" y="242" width="80" height="52" rx="10" ry="10"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="400" y="242" width="80" height="52" rx="10" ry="10"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="264.8">
+      <tspan x="440" y="264.8">Javascript</tspan>
+      <tspan x="440" y="280.8">JQuery</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="460" y="182" width="80" height="52" rx="10" ry="10"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="182" width="80" height="52" rx="10" ry="10"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="500" y="204.8">
+      <tspan x="500" y="204.8">CSS</tspan>
+      <tspan x="500" y="220.8">Bootstrap</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="340" y="422" width="80" height="52" rx="10" ry="10"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="340" y="422" width="80" height="52" rx="10" ry="10"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="380" y="444.8">
+      <tspan x="380" y="444.8">Course</tspan>
+      <tspan x="380" y="460.8">Manager</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="739" y="451" width="80" height="52" rx="10" ry="10"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="739" y="451" width="80" height="52" rx="10" ry="10"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="779" y="473.8">
+      <tspan x="779" y="473.8">Database</tspan>
+      <tspan x="779" y="489.8">Manager</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="400" y="482" width="80" height="52" rx="10" ry="10"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="400" y="482" width="80" height="52" rx="10" ry="10"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="504.8">
+      <tspan x="440" y="504.8">University</tspan>
+      <tspan x="440" y="520.8">Manager</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="460" y="422" width="80" height="52" rx="10" ry="10"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="422" width="80" height="52" rx="10" ry="10"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="500" y="444.8">
+      <tspan x="500" y="444.8">User</tspan>
+      <tspan x="500" y="460.8">Manager</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="465,320 465,360 480,360 450,400 420,360 435,360 435,320 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="465,320 465,360 480,360 450,400 420,360 435,360 435,320 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="465,320 465,360 480,360 450,400 420,360 435,360 435,320 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="515,400 515,360 500,360 530,320 560,360 545,360 545,400 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="515,400 515,360 500,360 530,320 560,360 545,360 545,400 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="515,400 515,360 500,360 530,320 560,360 545,360 545,400 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="600,415 640,415 640,400 680,430 640,460 640,445 600,445 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="600,415 640,415 640,400 680,430 640,460 640,445 600,445 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="600,415 640,415 640,400 680,430 640,460 640,445 600,445 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="680,495 640,495 640,480 600,510 640,540 640,525 680,525 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="680,495 640,495 640,480 600,510 640,540 640,525 680,525 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="680,495 640,495 640,480 600,510 640,540 640,525 680,525 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="880" y="451.691" width="45.5" height="40.1471"/>
+    <ellipse style="fill: #ffffff" cx="902.75" cy="491.838" rx="22.75" ry="6.69118"/>
+    <ellipse style="fill: #ffffff" cx="902.75" cy="451.691" rx="22.75" ry="6.69118"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="902.75" cy="451.691" rx="22.75" ry="6.69118"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 925.5 451.691 L 925.5,491.838 C 925.5,495.534 915.314,498.529 902.75,498.529 C 890.186,498.529 880,495.534 880,491.838 L 880,451.691"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="902.75" y="511.329">
+      <tspan x="902.75" y="511.329">DATABASE</tspan>
+    </text>
+  </g>
+</svg>

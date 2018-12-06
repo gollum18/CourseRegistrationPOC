@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="36cm" height="25cm" viewBox="139 19 702 482" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="140" y="20" width="700" height="480"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="20" width="700" height="480"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="20" width="700" height="60"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="20" width="700" height="60"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="490" y="50">
+    <tspan x="490" y="50"></tspan>
+  </text>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="490" y="57.725">
+    <tspan x="490" y="57.725">COURSELY - Home Page</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="80" width="700" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="80" width="700" height="40"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="720" y="80" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="720" y="80" width="120" height="40"/>
+  </g>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="780" y="106.375">
+    <tspan x="780" y="106.375">LOGIN</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="80" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="80" width="120" height="40"/>
+  </g>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="200" y="106.375">
+    <tspan x="200" y="106.375">VIEW CATALOG</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="200" y="201">
+    <tspan x="200" y="201">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </tspan>
+    <tspan x="200" y="217">ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</tspan>
+    <tspan x="200" y="233">laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</tspan>
+    <tspan x="200" y="249">voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</tspan>
+    <tspan x="200" y="265">non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="180">
+    <tspan x="720" y="180"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="200" y="361">
+    <tspan x="200" y="361">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </tspan>
+    <tspan x="200" y="377">ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</tspan>
+    <tspan x="200" y="393">laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</tspan>
+    <tspan x="200" y="409">voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</tspan>
+    <tspan x="200" y="425">non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="800" y="120" width="40" height="380"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="120" width="40" height="380"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="780" y="100">
+    <tspan x="780" y="100"></tspan>
+  </text>
+</svg>

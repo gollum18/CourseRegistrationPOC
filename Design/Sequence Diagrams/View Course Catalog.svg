@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="28cm" height="15cm" viewBox="119 79 548 287" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <ellipse style="fill: #000000" cx="130" cy="180" rx="10" ry="10"/>
+  <g>
+    <rect style="fill: #ffffff" x="320" y="80" width="46.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="320" y="80" width="46.3" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="343.15" y="102.8">
+      <tspan x="343.15" y="102.8">:GUI</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="330" y1="105.45" x2="356.3" y2="105.45"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="410" y="80" width="107.7" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="410" y="80" width="107.7" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="463.85" y="102.8">
+      <tspan x="463.85" y="102.8">CourseManager</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="420" y1="105.45" x2="507.7" y2="105.45"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="544" y="80" width="121.5" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="544" y="80" width="121.5" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="604.75" y="102.8">
+      <tspan x="604.75" y="102.8">DatabaseManager</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="554" y1="105.45" x2="655.5" y2="105.45"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="343.15" y1="116" x2="343.15" y2="179"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="343.15" y1="339" x2="343.15" y2="365"/>
+    <rect style="fill: #ffffff" x="336.15" y="179" width="14" height="160"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="336.15" y="179" width="14" height="160"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="463.85" y1="116" x2="463.85" y2="189"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="463.85" y1="269" x2="463.85" y2="294"/>
+    <rect style="fill: #ffffff" x="456.85" y="189" width="14" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="456.85" y="189" width="14" height="80"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="604.75" y1="116" x2="604.75" y2="204"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="604.75" y1="244" x2="604.75" y2="260"/>
+    <rect style="fill: #ffffff" x="597.75" y="204" width="14" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="597.75" y="204" width="14" height="40"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="319.15" y1="179.087" x2="140" y2="180"/>
+    <polygon style="fill: #000000" points="319.176,184.087 335.15,179.005 319.125,174.087 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="319.176,184.087 335.15,179.005 319.125,174.087 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="439.85" y1="189" x2="350.15" y2="189"/>
+    <polygon style="fill: #000000" points="439.85,194 455.85,189 439.85,184 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="439.85,194 455.85,189 439.85,184 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="397.912" y="185">GetCatalog()</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="580.75" y1="204" x2="470.85" y2="204"/>
+    <polygon style="fill: #000000" points="580.75,209 596.75,204 580.75,199 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="580.75,209 596.75,204 580.75,199 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="523.324" y="197.5">GetCatalog()</text>
+  </g>
+  <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="133" y="108">
+    <tspan x="133" y="108">View Course Catalog</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="487.85" y1="244" x2="597.75" y2="244"/>
+    <polygon style="fill: #000000" points="487.85,239 471.85,244 487.85,249 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="487.85,239 471.85,244 487.85,249 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="539.324" y="240.5">catalog</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="367.15" y1="269" x2="456.85" y2="269"/>
+    <polygon style="fill: #000000" points="367.15,264 351.15,269 367.15,274 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="367.15,264 351.15,269 367.15,274 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="415.912" y="264">catalog</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="336.15" y1="289" x2="301" y2="289"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="301" y1="289" x2="301" y2="327"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="319.15" y1="327" x2="301" y2="327"/>
+    <polygon style="fill: #000000" points="319.15,332 335.15,327 319.15,322 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="319.15,332 335.15,327 319.15,322 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="268" y="282">DisplayCatalog(catalog)</text>
+  </g>
+</svg>

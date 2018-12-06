@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="36cm" height="25cm" viewBox="139 19 702 482" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="140" y="20" width="700" height="480"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="20" width="700" height="480"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="20" width="700" height="60"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="20" width="700" height="60"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="490" y="50">
+    <tspan x="490" y="50"></tspan>
+  </text>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="490" y="57.725">
+    <tspan x="490" y="57.725">COURSELY - Schedule Management</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="80" width="700" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="80" width="700" height="40"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="720" y="80" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="720" y="80" width="120" height="40"/>
+  </g>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="780" y="106.375">
+    <tspan x="780" y="106.375">LOGOUT</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="80" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="80" width="120" height="40"/>
+  </g>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="200" y="106.375">
+    <tspan x="200" y="106.375">VIEW CATALOG</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="180">
+    <tspan x="720" y="180"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="800" y="120" width="40" height="380"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="120" width="40" height="380"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="780" y="100">
+    <tspan x="780" y="100"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="120" width="660" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="120" width="660" height="40"/>
+  </g>
+  <text font-size="14.6756" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="490" y="105.825">
+    <tspan x="490" y="105.825">Hello, [Student Name]</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="120" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="120" width="120" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="200" y="145.075">
+    <tspan x="200" y="145.075">Home</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="360" y="220" width="200" height="60"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="360" y="220" width="200" height="60"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="360" y="340" width="200" height="60"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="360" y="340" width="200" height="60"/>
+  </g>
+  <text font-size="14.6756" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="460" y="255.825">
+    <tspan x="460" y="255.825">ADD SECTION</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="460" y="400">
+    <tspan x="460" y="400"></tspan>
+  </text>
+  <text font-size="14.6756" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="460" y="375.825">
+    <tspan x="460" y="375.825">VIEW SCHEDULE</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="380" y="120" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="380" y="120" width="120" height="40"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="500" y="120" width="40" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="500" y="120" width="40" height="40"/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="510,120 510,140 500,140 520,160 540,140 530,140 530,120 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="510,120 510,140 500,140 520,160 540,140 530,140 530,120 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="510,120 510,140 500,140 520,160 540,140 530,140 530,120 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="145.075">
+    <tspan x="440" y="145.075">[Semester]</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="640" y="120" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="640" y="120" width="120" height="40"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="760" y="120" width="40" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="760" y="120" width="40" height="40"/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="770,120 770,140 760,140 780,160 800,140 790,140 790,120 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="770,120 770,140 760,140 780,160 800,140 790,140 790,120 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="770,120 770,140 760,140 780,160 800,140 790,140 790,120 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="700" y="145.075">
+    <tspan x="700" y="145.075">[Year]</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="460" width="660" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="460" width="660" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="470" y="485.075">
+    <tspan x="470" y="485.075">[ERROR MESSAGES]</tspan>
+  </text>
+</svg>
