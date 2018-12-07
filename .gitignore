@@ -338,4 +338,4 @@ ASALocalRun/
 .localhistory/
 
 # ignore log
-*.log
+log.txt
