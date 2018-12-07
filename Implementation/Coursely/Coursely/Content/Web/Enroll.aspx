@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="header" runat="server">
     <script src='<%=ResolveUrl("~/Content/JS/CourseValidation.js") %>' type="text/javascript"></script>
     <script src="<%=ResolveUrl("~/Content/JS/SectionValidation.js") %>" type="text/javascript"></script>
-    <script src="<%=ResolveUrl("~/Content/JS/UniversityValidation.js") %>" type="text/javascript"></script>
+    <script src="<%=ResolveUrl("~/Content/JS/Validation.js") %>" type="text/javascript"></script>
     <script>
         var statusLabel = null;
         

@@ -1,4 +1,33 @@
-﻿/**
+﻿// Used for validation
+var _semesters = ["Fall", "Spring", "Summer"]
+var _years = [];
+
+$(document).ready(function () {
+    var year = new Date().getFullYear();
+    for (var i = 0; i < 3; i++) {
+        _years.push(year + i);
+    }
+});
+
+/**
+ * Validates a semester chosen by the user.
+ * @param {any} semester A semester to validate.
+ */
+function validateSelectedSemester(semester) {
+    if (!$.inArray(semester, _semesters) === -1) {
+        return { result: false, error: "Error: You have selected an invalid semester!" };
+    }
+    return { result: true, error: "" };
+}
+
+function validateSelectedYear(year) {
+    if (!$.inArray(year, _years) === -1) {
+        return { result: false, error: "Error: You have selected an invalid year!" };
+    }
+    return { result: true, error: "" };
+}
+
+/**
  * Validates that an abbreviation was entered and that it is valid.
  * @param {string} abbreviation A value from an abbreviation textbox.
  */

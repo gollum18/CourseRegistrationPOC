@@ -17,7 +17,7 @@
     <section>
         <asp:Table ID="ScheduleView" CssClass="table table-bordered table-striped" ClientIDMode="Static" runat="server"></asp:Table>
         <asp:RadioButtonList ID="UnenrollSelector" ClientIDMode="Static" runat="server"></asp:RadioButtonList>
-        <asp:Button Text="Unenroll" ID="UnenrollButton" ClientIDMode="Static" OnClick="OnUnenrollButtonClicked" runat="server" />
+        <asp:Button Text="Unenroll" ID="UnenrollButton" Visible="false" ClientIDMode="Static" OnClick="OnUnenrollButtonClicked" runat="server" />
     </section>
     <section>
         <asp:Label ID="StatusLabel" Font-Bold="true" Font-Size="Large" ClientIDMode="Static" runat="server"></asp:Label>

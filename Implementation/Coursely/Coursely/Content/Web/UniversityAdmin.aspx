@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="University Manager" Language="C#" MasterPageFile="~/MasterForm.Master" AutoEventWireup="true" CodeBehind="UniversityAdmin.aspx.cs" Inherits="Coursely.Content.Web.UniversityAdmin" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <script src='<%=ResolveUrl("~/Content/JS/UniversityValidation.js") %>' type="text/javascript"></script>
+    <script src='<%=ResolveUrl("~/Content/JS/Validation.js") %>' type="text/javascript"></script>
     <script>
         var statusLabel = null;
 

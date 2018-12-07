@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterForm.Master" AutoEventWireup="true" CodeBehind="ManageSections.aspx.cs" Inherits="Coursely.Content.Web.ManageSections" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <script src="<%=ResolveUrl("~/Content/JS/UniversityValidation.js") %>"></script>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">  
+    <script src="<%=ResolveUrl("~/Content/JS/Validation.js") %>" type="text/javascript"></script>
     <script>
         var statusLabel = null;
 
@@ -9,7 +9,21 @@
         });
 
         function viewSections() {
-            // TODO: Validate the semester and year
+            var validationResult = null;
+
+            // Validate the semester
+            validationResult = validateSelectedSemester($("#SemesterDD").val());
+            if (!validationResult.result) {
+                statusLabel.text(validationResult.error);
+                statusLabel.css("color", "red");
+                return;
+            }
+            validationResult = validateSelectedYear($("#YearDD").val());
+            if (!validationResult.result) {
+                statusLabel.text(validationResult.error);
+                statusLabel.css("color", "red");
+                return;
+            }
             doPostBack("ViewSections");
         }
     </script>
@@ -18,7 +32,7 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
     <section>
-        <h6>Select a semester and year then click the 'View Courses' button.</h6>
+        <h6>To see your courses for a term, first, select a semester, then a year, and finally, click the 'View Courses' button.</h6>
         <label for="SemesterDD">Semester: </label>
         <asp:DropDownList ID="SemesterDD" ClientIDMode="Static" runat="server">
             <asp:ListItem Value="Fall">Fall</asp:ListItem>

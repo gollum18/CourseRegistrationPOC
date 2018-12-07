@@ -18,7 +18,7 @@ namespace Coursely.Content.Web
         // Constants used by the schedule table
         public static readonly string[] SCHEDULE_HEADERS = 
         {
-            "Section", "Instructor(s)", "Room", "Dates", "Times", "Days", "Enrollment"
+            "Course", "Section", "Instructor(s)", "Room", "Dates", "Times", "Days", "Enrollment"
         };
         
         public static readonly char[] SCHEDULE_TRIM_CHARS =
@@ -77,6 +77,7 @@ namespace Coursely.Content.Web
                 foreach (var section in sections)
                 {
                     TableRow row = new TableRow();
+                    row.Cells.Add(new TableCell() { Text = CourseManager.InstanceOf().GetCourse(section.CourseID).Name });
                     row.Cells.Add(new TableCell() { Text = section.ToString()});
                     string instructorsContent = "";
                     IEnumerator<string> instructors = section.GetInstructors();

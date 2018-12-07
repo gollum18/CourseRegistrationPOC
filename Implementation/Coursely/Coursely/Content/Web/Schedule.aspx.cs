@@ -54,25 +54,34 @@ namespace Coursely.Content.Web
             UnenrollSelector.Items.Clear();
             try
             {
+                Tuple<string, int> term = new Tuple<string, int>(SemesterDropDown.Value, int.Parse(YearDropDown.SelectedValue));
                 // Get the students schedule
                 List<Section> schedule = UserManager.InstanceOf().GetSchedule(
                     // The term
-                    new Tuple<string, int>(SemesterDropDown.Value, int.Parse(YearDropDown.SelectedValue)),
+                    term,
                     // The students university identifier
                     Session["UnivID"].ToString(),
                     // The student's role
                     Session["Role"].ToString().Equals(Classes.User.STUDENT) ? true : false);
-                // Fill in the schedule table
-                ScheduleView.Rows.AddRange(WebControls.CreateScheduleRows(schedule).ToArray());
-                // Fill in the unenroll list
-                foreach (var section in schedule)
-                {
-                    UnenrollSelector.Items.Add(new ListItem(section.ToString(), 
-                        section.SectionID.ToString()));
+                if (schedule.Count > 0) {
+                    // Fill in the schedule table
+                    ScheduleView.Rows.AddRange(WebControls.CreateScheduleRows(schedule).ToArray());
+                    // Fill in the unenroll list
+                    foreach (var section in schedule)
+                    {
+                        UnenrollSelector.Items.Add(new ListItem(section.ToString(),
+                            section.SectionID.ToString()));
+                    }
+                    if (!StatusLabel.Text.Equals(""))
+                    {
+                        StatusLabel.Text = "";
+                    }
+                    UnenrollButton.Visible = true;
                 }
-                if (!StatusLabel.Text.Equals(""))
+                else
                 {
-                    StatusLabel.Text = "";
+                    WebControls.SetLabel(StatusLabel, WebControls.DARK_ORANGE, "Info: You are not registered for any course during the " +
+                        $"{term.Item1} {term.Item2} semester!");
                 }
             }
             catch (Exception ex)
@@ -100,10 +109,6 @@ namespace Coursely.Content.Web
                 {
                     UnenrollSelector.Items.Clear();
                     WebControls.SetLabel(StatusLabel, WebControls.GREEN, "Successfully unenrolled from section");
-                    if (!StatusLabel.Text.Equals(""))
-                    {
-                        StatusLabel.Text = "";
-                    }
                 }
                 else
                 {
