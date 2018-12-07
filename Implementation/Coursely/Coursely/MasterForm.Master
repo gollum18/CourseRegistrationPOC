@@ -82,10 +82,8 @@
             </nav>
             <asp:ContentPlaceHolder ID="header" runat="server"></asp:ContentPlaceHolder>
         </header>
-        <section class="jumbotron border-primary">
-            <asp:ContentPlaceHolder ID="body" runat="server"></asp:ContentPlaceHolder>
-        </section>
-        <footer class="border-secondary">
+        <asp:ContentPlaceHolder ID="body" runat="server"></asp:ContentPlaceHolder>
+        <footer>
             <asp:ContentPlaceHolder ID="footer" runat="server"></asp:ContentPlaceHolder>
         </footer>
     </form>

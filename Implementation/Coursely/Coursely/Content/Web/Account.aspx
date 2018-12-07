@@ -30,17 +30,6 @@
             doPostBack('UpdatePassword');
         }
 
-        function toggleView(id) {
-            var element = document.getElementById(id);
-            if (element !== null) {
-                if (element.style.display === 'block') {
-                    element.style.display = 'none';
-                } else {
-                    element.style.display = 'block';
-                }
-            }
-        }
-
         /*
          * 
          */
@@ -84,41 +73,59 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="header" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
-    <section>
-        <section>
-            <label for="UnivIDTextBox">University Identifer: </label>
-            <input id="UnivIDTextBox" type="text" readonly="readonly" runat="server"/>
-            <label for="RoleTextBox">Role: </label>
-            <input id="RoleTextBox" type="text" readonly="readonly" runat="server"/>
-            <label for="NameTextBox">Name: </label>
-            <input id="NameTextBox" type="text" readonly="readonly" runat="server"/>
-        </section>
-        <section>
-            <div id="EmailContainer" style="display:none;">
-                <label for="EmailTextBox">Email: </label>
-                <input id="CurrentEmailTextBox" type="email" runat="server"/>
-                <label for="NewEmailTextBox">New Email: </label>
-                <input id="NewEmailTextBox" type="email" runat="server"/>
-                <label for="ConfirmEmailTextBox">Confirm Email: </label>
-                <input id="ConfirmEmailTextBox" type="email" runat="server"/>
-                <input id="UpdateEmailButton" type="button" onclick="updateEmail();" value="Update Email"/>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <label for="UnivIDTextBox" class="col-form-label">University Identifer: </label>
+                <input id="UnivIDTextBox" type="text" class="form-control" readonly="readonly" runat="server"/>
             </div>
-            <input id="ToggleButtonEmail" type="button" onclick="toggleView('EmailContainer');" value="Toggle Update Email"/>
-        </section>
-        <section>
-            <div id="PasswordContainer" style="display:none;">
-                <label for="CurrentPasswordTextBox">Current Password: </label>
-                <asp:TextBox ID="CurrentPasswordTextBox" ClientIDMode="Static" TextMode="Password" runat="server"></asp:TextBox>
-                <label for="NewPasswordTextBox">New Password: </label>
-                <asp:TextBox ID="NewPasswordTextBox" ClientIDMode="Static" TextMode="Password" runat="server"></asp:TextBox>
-                <label for="ConfirmPasswordTextBox">Confirm Password: </label>
-                <asp:TextBox ID="ConfirmPasswordTextBox" ClientIDMode="Static" TextMode="Password" runat="server"></asp:TextBox>
-                <input id="UpdatePasswordButton" type="button" onclick="updatePassword();" value="Update Password"/>
+            <div class="col">
+                <label for="RoleTextBox" class="col-form-label">Role: </label>
+                <input id="RoleTextBox" type="text" class="form-control" readonly="readonly" runat="server"/>
             </div>
-            <input id="TogglePasswordButton" onclick="toggleView('PasswordContainer');" type="button" value="Toggle Update Password" />
-        </section>
-        <asp:Label ID="StatusLabel" Font-Bold="true" Font-Size="Medium" ClientIDMode="Static" runat="server"></asp:Label>
-    </section>
+            <div class="col">
+                <label for="NameTextBox" class="col-form-label">Name: </label>
+                <input id="NameTextBox" type="text" class="form-control" readonly="readonly" runat="server"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="EmailTextBox" class="col-form-label">Email: </label>
+                <input id="CurrentEmailTextBox" class="form-control" type="email" readonly="readonly" runat="server"/>
+            </div>
+            <div class="col">
+                <label for="NewEmailTextBox" class="col-form-label">New Email: </label>
+                <input id="NewEmailTextBox" class="form-control" type="email" runat="server"/>
+            </div>
+            <div class="col">
+                <label for="ConfirmEmailTextBox" class="col-form-label">Confirm Email: </label>
+                <input id="ConfirmEmailTextBox" class="form-control" type="email" runat="server"/>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <input id="UpdateEmailButton" type="button" class="btn btn-primary col-4 mt-2" onclick="updateEmail();" value="Update Email"/>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="CurrentPasswordTextBox" class="col-form-label">Current Password: </label>
+                <asp:TextBox ID="CurrentPasswordTextBox" CssClass="form-control" ClientIDMode="Static" TextMode="Password" runat="server"></asp:TextBox>
+            </div>
+            <div class="col">
+                <label for="NewPasswordTextBox" class="col-form-label">New Password: </label>
+                <asp:TextBox ID="NewPasswordTextBox" CssClass="form-control" ClientIDMode="Static" TextMode="Password" runat="server"></asp:TextBox>
+            </div>
+            <div class="col">
+                <label for="ConfirmPasswordTextBox" class="col-form-label">Confirm Password: </label>
+                <asp:TextBox ID="ConfirmPasswordTextBox" CssClass="form-control" ClientIDMode="Static" TextMode="Password" runat="server"></asp:TextBox>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <input id="UpdatePasswordButton" type="button" class="btn btn-primary col-4 mt-2 mb-2" onclick="updatePassword();" value="Update Password"/>
+        </div>
+        <div class="row justify-content-center">
+            <asp:Label ID="StatusLabel" CssClass="col" Font-Bold="true" Font-Size="Medium" ClientIDMode="Static" runat="server"></asp:Label>
+        </div>
+    </div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="footer" runat="server">
 </asp:Content>

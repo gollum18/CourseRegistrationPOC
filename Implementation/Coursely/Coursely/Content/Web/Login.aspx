@@ -22,12 +22,18 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="header" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
-    <div class="form-group">
-        <label for="TextID">University ID: </label>
-        <asp:TextBox ID="TextID" runat="server" ClientIDMode="Static"></asp:TextBox>    
-        <label for="TextPassword"></label>
-        <asp:TextBox ID="TextPassword" TextMode="Password" runat="server" ClientIDMode="Static"></asp:TextBox>
-        <input type="button" id="ButtonLogin" onclick="validateLogin();" value="Login"/>
+    <div class="container col-3">
+        <div class="form-group row">
+            <label for="TextID" class="col-form-label">University ID: </label>
+            <asp:TextBox ID="TextID" CssClass="form-control" runat="server" ClientIDMode="Static"></asp:TextBox>    
+        </div>
+        <div class="form-group row">
+            <label for="TextPassword" class="col-form-label">Password: </label>
+            <asp:TextBox ID="TextPassword" CssClass="form-control" TextMode="Password" runat="server" ClientIDMode="Static"></asp:TextBox>
+        </div>
+        <div class="form-group row">
+            <input type="button" class="form-control btn btn-primary" id="ButtonLogin" onclick="validateLogin();" value="Login"/>
+        </div>
     </div>
     <asp:Label ID="StatusLabel" Font-Bold="true" Font-Size="Large" ClientIDMode="Static" ForeColor="Red" runat="server"></asp:Label>
 </asp:Content>

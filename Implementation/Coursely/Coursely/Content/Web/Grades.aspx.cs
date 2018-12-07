@@ -1,7 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Web.UI.WebControls;
 
-using Coursely.Content.Classes;
 using Coursely.Content.Managers;
 
 namespace Coursely.Content.Web
@@ -31,29 +31,33 @@ namespace Coursely.Content.Web
             loglink.Text = "Logout";
             loglink.Click += OnLogButtonClicked;
 
-            if (StudentRecordList.Items.Count == 0)
+            if (StudentRecord.Rows.Count == 0)
             {
                 try
                 {
-                    foreach (var record in UserManager.InstanceOf().GetAcademicRecord(
-                        Session["UnivID"].ToString()))
-                    {
-                        StudentRecordList.Items.Add(new ListItem(record));
+                    StudentRecord.Rows.Clear();
+                    List<string> record = UserManager.InstanceOf().GetAcademicRecord(
+                        Session["UnivID"].ToString());
+                    if (record.Count > 0) {
+                        foreach (var row in WebControls.GenerateRecordRows(
+                            UserManager.InstanceOf().GetUser(Session["UnivID"].ToString()).ToString(), record))
+                        {
+                            StudentRecord.Rows.Add(row);
+                        }
+                        if (!StatusLabel.Text.Equals(""))
+                        {
+                            StatusLabel.Text = "";
+                        }
                     }
-                    if (!StatusLabel.Text.Equals(""))
+                    else
                     {
-                        StatusLabel.Text = "";
+                        WebControls.SetLabel(StatusLabel, WebControls.DARK_ORANGE, "Info: You do not have any grades to display!");
                     }
                 }
                 catch (Exception ex)
                 {
                     WebControls.SetLabel(StatusLabel, WebControls.RED, ex.Message);
                 }
-            }
-
-            if (string.IsNullOrEmpty(RecordHeader.Text))
-            {
-                RecordHeader.Text = $"Display record for {UserManager.InstanceOf().GetUser(Session["UnivID"].ToString()).ToString()}";
             }
         }
 

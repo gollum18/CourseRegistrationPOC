@@ -31,24 +31,42 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="header" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
-    <section>
-        <h6>To see your courses for a term, first, select a semester, then a year, and finally, click the 'View Courses' button.</h6>
-        <label for="SemesterDD">Semester: </label>
-        <asp:DropDownList ID="SemesterDD" ClientIDMode="Static" runat="server">
-            <asp:ListItem Value="Fall">Fall</asp:ListItem>
-            <asp:ListItem Value="Spring">Spring</asp:ListItem>
-            <asp:ListItem Value="Summer">Summer</asp:ListItem>
-        </asp:DropDownList>
-        <label for="YearDD">Year: </label>
-        <asp:DropDownList ID="YearDD" ClientIDMode="Static" runat="server"></asp:DropDownList>
-        <input type="button" value="View Courses" onclick="viewSections();" />
-    </section>
-    <section>
-        <asp:Table ID="ScheduleView" CssClass="table table-bordered table-striped" ClientIDMode="Static" runat="server"></asp:Table>
-    </section>
-    <section>
-        <asp:Label ID="StatusLabel" Font-Bold="true" Font-Size="Large" ClientIDMode="Static" runat="server"></asp:Label>
-    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h5>To see your courses for a term, first, select a semester, then a year, and finally, click the 'View Courses' button.</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="SemesterDD" class="col-form-label">Semester: </label>
+                <asp:DropDownList ID="SemesterDD" CssClass="form-control" ClientIDMode="Static" runat="server">
+                    <asp:ListItem Value="Fall">Fall</asp:ListItem>
+                    <asp:ListItem Value="Spring">Spring</asp:ListItem>
+                    <asp:ListItem Value="Summer">Summer</asp:ListItem>
+                </asp:DropDownList>
+            </div>
+            <div class="col">
+                <label for="YearDD" class="col-form-label">Year: </label>
+                <asp:DropDownList ID="YearDD" CssClass="form-control" ClientIDMode="Static" runat="server"></asp:DropDownList>
+            </div>
+        </div>
+        <div class="row mt-2 mb-2 justify-content-center">
+            <div class="col">
+                <input type="button" class="btn btn-primary col-4" value="View Courses" onclick="viewSections();" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <asp:Table ID="ScheduleView" CssClass="table table-bordered table-striped" ClientIDMode="Static" runat="server"></asp:Table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <asp:Label ID="StatusLabel" CssClass="alert" Font-Bold="true" Font-Size="Large" ClientIDMode="Static" runat="server"></asp:Label>
+            </div>
+        </div>
+    </div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="footer" runat="server">
 </asp:Content>

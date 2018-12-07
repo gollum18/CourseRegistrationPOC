@@ -203,15 +203,24 @@ namespace Coursely.Content.Web
                     int.Parse(CourseSelector.SelectedValue),
                     new Tuple<string, int>(SemesterSelector.SelectedValue,
                     int.Parse(YearSelector.SelectedValue)));
-                // Load the course sections into the table
-                foreach (var row in WebControls.CreateScheduleRows(sections))
+                if (sections.Count > 0)
                 {
-                    SectionsView.Rows.Add(row);
+                    // Load the course sections into the table
+                    foreach (var row in WebControls.CreateScheduleRows(sections))
+                    {
+                        SectionsView.Rows.Add(row);
+                    }
+                    // Load them into the radio button group
+                    foreach (var section in sections)
+                    {
+                        SectionSelector.Items.Add(new ListItem(section.ToString(), section.SectionID.ToString()));
+                    }
+                    EnrollPanel.Visible = true;
                 }
-                // Load them into the radio button group
-                foreach (var section in sections)
+                else
                 {
-                    SectionSelector.Items.Add(new ListItem(section.ToString(), section.SectionID.ToString()));
+                    WebControls.SetLabel(StatusLabel, WebControls.DARK_ORANGE, "Info: The course you have selected is not offered for the " +
+                        $"{UserManager.InstanceOf().GetUser(Session["UnivID"].ToString()).ToString()} semester!");
                 }
             }
             catch (Exception ex)

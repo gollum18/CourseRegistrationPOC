@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Coursely - Enrollment" Language="C#" MasterPageFile="~/MasterForm.Master" AutoEventWireup="true" CodeBehind="Enroll.aspx.cs" Inherits="Coursely.Content.Web.Enroll" %>
+﻿<%@ Page Title="Coursely - Enroll for Classes" Language="C#" MasterPageFile="~/MasterForm.Master" AutoEventWireup="true" CodeBehind="Enroll.aspx.cs" Inherits="Coursely.Content.Web.Enroll" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="header" runat="server">
@@ -58,37 +58,59 @@
     </script>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
-    <section>
-        <section>
-            <label for="SchoolSelector">School: </label>
-            <asp:DropDownList ID="SchoolSelector" ClientIDMode="static" OnSelectedIndexChanged="OnSchoolChanged" AutoPostBack="true" runat="server"></asp:DropDownList>
-            <label for="DepartmentSelector">Department: </label>
-            <asp:DropDownList ID="DepartmentSelector" ClientIDMode="Static" OnSelectedIndexChanged="OnDepartmentChanged" AutoPostBack="true" runat="server">
-                <asp:ListItem Value="-1">-Department-</asp:ListItem>
-            </asp:DropDownList>
-            <label for="CourseSelector">Course: </label>
-            <asp:DropDownList ID="CourseSelector" ClientIDMode="Static" runat="server">
-                <asp:ListItem Value="-1">-Course-</asp:ListItem>
-            </asp:DropDownList>
-        </section>
-        <section>
-            <label for="SemesterSelector">Semester: </label>
-            <asp:DropDownList ID="SemesterSelector" ClientIDMode="Static" runat="server">
-                <asp:ListItem Value="Fall">Fall</asp:ListItem>
-                <asp:ListItem Value="Spring">Spring</asp:ListItem>
-                <asp:ListItem Value="Summer">Summer</asp:ListItem>
-            </asp:DropDownList>
-            <label for="YearSelector">Year: </label>
-            <asp:DropDownList ID="YearSelector" ClientIDMode="Static" runat="server"></asp:DropDownList>
-            <input type="button" value="View Sections" onclick="viewSections();" /> 
-        </section>
-    </section>
-    <section>
-        <asp:Table ID="SectionsView" ClientIDMode="Static" runat="server"></asp:Table>
-        <asp:RadioButtonList ID="SectionSelector" ClientIDMode="Static" runat="server"></asp:RadioButtonList>
-        <input type="button" value="Enroll" onclick="enroll();" />
-    </section>
-    <asp:Label ID="StatusLabel" Font-Bold="true" Font-Size="Large" runat="server"></asp:Label>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <label for="SchoolSelector" class="col-form-label">School: </label>
+                <asp:DropDownList ID="SchoolSelector" CssClass="form-control" ClientIDMode="static" OnSelectedIndexChanged="OnSchoolChanged" AutoPostBack="true" runat="server"></asp:DropDownList>
+            </div>
+            <div class="col">
+                <label for="DepartmentSelector" class="col-form-label">Department: </label>
+                <asp:DropDownList ID="DepartmentSelector" CssClass="form-control" ClientIDMode="Static" OnSelectedIndexChanged="OnDepartmentChanged" AutoPostBack="true" runat="server">
+                    <asp:ListItem Value="-1">-Department-</asp:ListItem>
+                </asp:DropDownList>
+            </div>
+            <div class="col">
+                <label for="CourseSelector" class="col-form-label">Course: </label>
+                <asp:DropDownList ID="CourseSelector" CssClass="form-control" ClientIDMode="Static" runat="server">
+                    <asp:ListItem Value="-1">-Course-</asp:ListItem>
+                </asp:DropDownList>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="SemesterSelector" class="col-form-label">Semester: </label>
+                <asp:DropDownList ID="SemesterSelector" CssClass="form-control" ClientIDMode="Static" runat="server">
+                    <asp:ListItem Value="Fall">Fall</asp:ListItem>
+                    <asp:ListItem Value="Spring">Spring</asp:ListItem>
+                    <asp:ListItem Value="Summer">Summer</asp:ListItem>
+                </asp:DropDownList>
+            </div>
+            <div class="col">
+                <label for="YearSelector" class="col-form-label">Year: </label>
+                <asp:DropDownList ID="YearSelector" CssClass="form-control" ClientIDMode="Static" runat="server"></asp:DropDownList>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-2 mb-2">
+            <input type="button" class="btn btn-primary col-6" value="View Sections" onclick="viewSections();" />
+        </div>
+    </div>
+    <asp:Panel ID="EnrollPanel" CssClass="container" Visible="false" runat="server">
+        <div class="row">
+            <div class="col">
+                <asp:Table ID="SectionsView" CssClass="table table-sm table-bordered table-striped" ClientIDMode="Static" runat="server"></asp:Table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <asp:RadioButtonList ID="SectionSelector" CssClass="form-control" RepeatDirection="Horizontal" ClientIDMode="Static" runat="server"></asp:RadioButtonList>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-2">
+            <input type="button" class="btn btn-primary col-6" value="Enroll" onclick="enroll();" />
+        </div>
+    </asp:Panel>
+    <asp:Label ID="StatusLabel" CssClass="alert" Font-Bold="true" Font-Size="Large" runat="server"></asp:Label>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="footer" runat="server">
 </asp:Content>

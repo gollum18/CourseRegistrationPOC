@@ -116,69 +116,109 @@
     </section>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
-    <section>
-        <label>Building: </label>
-        <asp:DropDownList ID="BuildingSelector" ClientIDMode="Static" AutoPostBack="true" OnSelectedIndexChanged="OnBuildingChanged" runat="server">
-            <asp:ListItem Value="-1">-Building-</asp:ListItem>
-        </asp:DropDownList>
-        <label for="DepartmentSelector">Department: </label>
-        <asp:DropDownList ID="DepartmentSelector" ClientIDMode="Static" AutoPostBack="true" OnSelectedIndexChanged="OnDepartmentChanged" runat="server">
-            <asp:ListItem Value="-1">-Department-</asp:ListItem>
-        </asp:DropDownList>
-        <label for="MajorSelector">Major: </label>
-        <asp:DropDownList ID="MajorSelector" ClientIDMode="Static" AutoPostBack="true" OnSelectedIndexChanged="OnMajorChanged" runat="server">
-            <asp:ListItem Value="-1">-Major-</asp:ListItem>
-        </asp:DropDownList>
-        <label for="SchoolSelector">School: </label>
-        <asp:DropDownList ID="SchoolSelector" ClientIDMode="Static" AutoPostBack="true" OnSelectedIndexChanged="OnSchoolChanged" runat="server">
-            <asp:ListItem Value="-1">-School-</asp:ListItem>
-        </asp:DropDownList>
+    <section class="container">
+        <div class="row">
+            <div class="col">
+                <label for="BuildingSelector" class="col-form-label">Building: </label>
+                <asp:DropDownList ID="BuildingSelector" CssClass="form-control" ClientIDMode="Static" AutoPostBack="true" OnSelectedIndexChanged="OnBuildingChanged" runat="server">
+                    <asp:ListItem Value="-1">-Building-</asp:ListItem>
+                </asp:DropDownList>
+            </div>
+            <div class="col">
+                <label for="DepartmentSelector" class="col-form-label">Department: </label>
+                <asp:DropDownList ID="DepartmentSelector" CssClass="form-control" ClientIDMode="Static" AutoPostBack="true" OnSelectedIndexChanged="OnDepartmentChanged" runat="server">
+                    <asp:ListItem Value="-1">-Department-</asp:ListItem>
+                </asp:DropDownList>
+            </div>
+            <div class="col">
+                <label for="MajorSelector" class="col-form-label">Major: </label>
+                <asp:DropDownList ID="MajorSelector" CssClass="form-control" ClientIDMode="Static" AutoPostBack="true" OnSelectedIndexChanged="OnMajorChanged" runat="server">
+                    <asp:ListItem Value="-1">-Major-</asp:ListItem>
+                </asp:DropDownList>
+            </div>
+            <div class="col">
+                <label for="SchoolSelector" class="col-form-label">School: </label>
+                <asp:DropDownList ID="SchoolSelector" CssClass="form-control" ClientIDMode="Static" AutoPostBack="true" OnSelectedIndexChanged="OnSchoolChanged" runat="server">
+                    <asp:ListItem Value="-1">-School-</asp:ListItem>
+                </asp:DropDownList>
+            </div>
+        </div>
     </section>
-    <section id="buildingContent" class="tab-content">
-        <section>
-            <label for="BuildingName">Name: </label>
-            <asp:TextBox ID="BuildingName" ClientIDMode="Static" runat="server"></asp:TextBox>
-            <label for="BuidlingAbbreviation">Abbreviation: </label>
-            <asp:TextBox ID="BuildingAbbreviation" ClientIDMode="Static" runat="server"></asp:TextBox>
-        </section>
-        <section>
-            <input type="button" value="Add" onclick="modifyBuilding('CreateBuilding');" />
-            <input type="button" value="Modify" onclick="modifyBuilding('ModifyBuilding');" />
-        </section>
+    <section id="buildingContent" class="tab-content container">
+        <div class="row">
+            <div class="col">
+                <label for="BuildingName" class="col-form-label">Name: </label>
+                <asp:TextBox ID="BuildingName" CssClass="form-control" ClientIDMode="Static" runat="server"></asp:TextBox>
+            </div>
+            <div class="col">
+                <label for="BuidlingAbbreviation" class="col-form-label">Abbreviation: </label>
+                <asp:TextBox ID="BuildingAbbreviation" CssClass="form-control" ClientIDMode="Static" runat="server"></asp:TextBox>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <input type="button" class="btn btn-primary col-6"  value="Add" onclick="modifyBuilding('CreateBuilding');" />
+            </div>
+            <div class="col">
+                <input type="button" class="btn btn-secondary col-6" value="Modify" onclick="modifyBuilding('ModifyBuilding');" />
+            </div>
+        </div>
     </section>
-    <section id="departmentContent" class="tab-content" style="display:none;">
-        <section>
-            <label for="DepartmentName">Name: </label>
-            <asp:TextBox ID="DepartmentName" ClientIDMode="Static" runat="server"></asp:TextBox>
-            <label for="DepartmentAbbreviation">Abbreviation: </label>
-            <asp:TextBox ID="DepartmentAbbreviation" ClientIDMode="Static" runat="server"></asp:TextBox>
-        </section>
-        <section>
-            <input type="button" value="Add" onclick="modifyDepartment('CreateDepartment');" />
-            <input type="button" value="Modify" onclick="modifyDepartment('ModifyDepartment');" />
-        </section>
+    <section id="departmentContent" class="tab-content container" style="display:none;">
+        <div class="row">
+            <div class="col">
+                <label for="DepartmentName" class="col-form-label">Name: </label>
+                <asp:TextBox ID="DepartmentName" CssClass="form-control" ClientIDMode="Static" runat="server"></asp:TextBox>
+            </div>
+            <div class="col">
+                <label for="DepartmentAbbreviation" class="col-form-label">Abbreviation: </label>
+                <asp:TextBox ID="DepartmentAbbreviation" CssClass="form-control" ClientIDMode="Static" runat="server"></asp:TextBox>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <input type="button" class="btn btn-primary col-6"  value="Add" onclick="modifyDepartment('CreateDepartment');" />
+            </div>
+            <div class="col">
+                <input type="button" class="btn btn-secondary col-6" value="Modify" onclick="modifyDepartment('ModifyDepartment');" />
+            </div>
+        </div>
     </section>
-    <section id="majorContent" class="tab-content" style="display:none;">
-        <section>
-            <label for="MajorName">Name: </label>
-            <asp:TextBox ID="MajorName" ClientIDMode="Static" runat="server"></asp:TextBox>
-        </section>
-        <section>
-            <input type="button" value="Add" onclick="modifyMajor('CreateMajor');" />
-            <input type="button" value="Modify" onclick="modifyMajor('ModifyMajor');" />
-        </section>
+    <section id="majorContent" class="tab-content container" style="display:none;">
+        <div class="row">
+            <div class="col">
+                <label for="MajorName" class="col-form-label">Name: </label>
+                <asp:TextBox ID="MajorName" CssClass="form-control" ClientIDMode="Static" runat="server"></asp:TextBox>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <input type="button" class="btn btn-primary col-6"  value="Add" onclick="modifyMajor('CreateMajor');" />
+            </div>
+            <div class="col">
+                <input type="button" class="btn btn-secondary col-6" value="Modify" onclick="modifyMajor('ModifyMajor');" />
+            </div>
+        </div>
     </section>
-    <section id="schoolContent" class="tab-content" style="display:none;">
-        <section>
-            <label for="SchoolName">Name: </label>
-            <asp:TextBox ID="SchoolName" ClientIDMode="Static" runat="server"></asp:TextBox>
-            <label for="SchoolAbbreviation">Abbreviation: </label>
-            <asp:TextBox ID="SchoolAbbreviation" ClientIDMode="Static" runat="server"></asp:TextBox>
-        </section>
-        <section>
-            <input type="button" value="Add" onclick="modifySchool('CreateSchool');" />
-            <input type="button" value="Modify" onclick="modifySchool('ModifySchool');" />
-        </section>
+    <section id="schoolContent" class="tab-content container" style="display:none;">
+        <div class="row">
+            <div class="col">
+                <label for="SchoolName" class="col-form-label">Name: </label>
+                <asp:TextBox ID="SchoolName" CssClass="form-control" ClientIDMode="Static" runat="server"></asp:TextBox>
+            </div>
+            <div class="col">
+                <label for="SchoolAbbreviation" class="col-form-label">Abbreviation: </label>
+                <asp:TextBox ID="SchoolAbbreviation" CssClass="form-control" ClientIDMode="Static" runat="server"></asp:TextBox>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <input type="button" class="btn btn-primary col-6" value="Add" onclick="modifySchool('CreateSchool');" />
+            </div>
+            <div class="col">
+                <input type="button" class="btn btn-secondary col-6" value="Modify" onclick="modifySchool('ModifySchool');" />
+            </div>
+        </div>
     </section>
     <asp:Label ID="StatusLabel" Font-Bold="true" Font-Size="Large" ClientIDMode="Static" runat="server"></asp:Label>
 </asp:Content>

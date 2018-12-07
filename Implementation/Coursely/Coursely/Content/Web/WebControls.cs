@@ -137,6 +137,7 @@ namespace Coursely.Content.Web
                 Text = $"Record for: {studentName}",
                 Scope = TableHeaderScope.Column
             });
+            rows.Add(header);
             foreach (var grade in record)
             {
                 TableRow row = new TableRow();

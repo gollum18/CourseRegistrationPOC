@@ -50,61 +50,105 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="header" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
-    <span class="form-row">
-        <label for="AdviseeDD">Advisee: </label>
-        <asp:DropDownList ID="AdviseeDD" ClientIDMode="Static" runat="server"></asp:DropDownList>
-        <input type="button" value="View Record" onclick="viewAction('ViewRecord');" />
-    </span>
-    <span>
-    <label for="SemesterDD">Semester: </label>
-    <asp:DropDownList ID="SemesterDD" ClientIDMode="Static" runat="server">
-        <asp:ListItem Value="Fall">Fall</asp:ListItem>
-        <asp:ListItem Value="Spring">Spring</asp:ListItem>
-        <asp:ListItem Value="Summer">Summer</asp:ListItem>
-    </asp:DropDownList>
-        <label for="YearDD">Year: </label>
-        <asp:DropDownList ID="YearDD" ClientIDMode="Static" runat="server"></asp:DropDownList>
-        <input type="button" value="View Schedule" onclick="viewAction('ViewSchedule');" />
-    </span>
-    <asp:Panel ID="RecordView" CssClass="form-group" Visible="false" runat="server">
-        <asp:Table ID="RecordTable" CssClass="table table-bordered table-striped" ClientIDMode="Static" runat="server"></asp:Table>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <label for="AdviseeDD" class="col-form-label">Advisee: </label>
+                <asp:DropDownList ID="AdviseeDD" CssClass="form-control" ClientIDMode="Static" runat="server"></asp:DropDownList>
+            </div>
+        </div>
+        <div class="row mt-2 mb-2 justify-content-lg-center">
+            <div class="col">
+                <input type="button" class="btn btn-primary col-4" value="View Record" onclick="viewAction('ViewRecord');" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="SemesterDD" class="col-form-label">Semester: </label>
+                <asp:DropDownList ID="SemesterDD" CssClass="form-control" ClientIDMode="Static" runat="server">
+                    <asp:ListItem Value="Fall">Fall</asp:ListItem>
+                    <asp:ListItem Value="Spring">Spring</asp:ListItem>
+                    <asp:ListItem Value="Summer">Summer</asp:ListItem>
+                </asp:DropDownList>
+            </div>
+            <div class="col">
+                <label for="YearDD" class="col-form-label">Year: </label>
+                <asp:DropDownList ID="YearDD" CssClass="form-control" ClientIDMode="Static" runat="server"></asp:DropDownList>
+            </div>
+        </div>
+        <div class="row mt-2 mb-2 justify-content-lg-center">
+            <div class="col">
+                <input type="button" class="btn btn-primary col-4" value="View Schedule" onclick="viewAction('ViewSchedule');" />
+            </div>
+        </div>
+    </div>
+    <asp:Panel ID="RecordView" CssClass="container" Visible="false" runat="server">
+        <div class="row">
+            <div class="col">
+                <asp:Table ID="RecordTable" CssClass="table table-sm table-bordered table-striped" ClientIDMode="Static" runat="server"></asp:Table>
+            </div>
+        </div>
     </asp:Panel>
-    <asp:Panel ID="ScheduleView" CssClass="form-group" Visible="false" runat="server">
-        <asp:Table ID="ScheduleTable" CssClass="table table-bordered table-striped" ClientIDMode="Static" runat="server"></asp:Table>
+    <asp:Panel ID="ScheduleView" CssClass="container" Visible="false" runat="server">
+        <div class="row">
+            <div class="col">
+                <asp:Table ID="ScheduleTable" CssClass="table table-sm table-bordered table-striped" ClientIDMode="Static" runat="server"></asp:Table>
+            </div>
+        </div>
     </asp:Panel>
-    <asp:Panel ID="OverrideView" CssClass="form-group" runat="server">
-        <section>
-            <h6>To override a section for a student:</h6>
-            <ol>
-                <li>Select the semester and year using the dropdown above.</li>
-                <li>Select the school using the dropdown below.</li>
-                <li>Select the department using the dropdown below.</li>
-                <li>Select the course using the dropdown below.</li>
-                <li>Select the section from the list below.</li>
-                <li>Click on the Override button below.</li>
-            </ol>
-            <label for="SchoolDD">School: </label>
-            <asp:DropDownList ID="SchoolDD" OnSelectedIndexChanged="OnSchoolChanged" AutoPostBack="true" runat="server">
-                <asp:ListItem Value="-1">-School-</asp:ListItem>
-            </asp:DropDownList>
-            <label for="DepartmentDD">Department: </label>
-            <asp:DropDownList ID="DepartmentDD" OnSelectedIndexChanged="OnDepartmentChanged" AutoPostBack="true" runat="server">
-                <asp:ListItem Value="-1">-Department-</asp:ListItem>
-            </asp:DropDownList>
-            <label for="CourseDD">Course: </label>
-            <asp:DropDownList ID="CourseDD" OnSelectedIndexChanged="OnCourseChanged" AutoPostBack="true" runat="server">
-                <asp:ListItem Value="-1">-Course-</asp:ListItem>
-            </asp:DropDownList>
-        </section>
-        <section>
-            <asp:Table ID="SectionTable" CssClass="table table-bordered table-striped" ClientIDMode="Static" runat="server"></asp:Table>
-            <asp:RadioButtonList ID="SectionSelector" ClientIDMode="Static" runat="server"></asp:RadioButtonList>
-        </section>
-        <input type="button" value="Override" onclick="overrideSection();"/>
+    <asp:Panel ID="OverrideView" CssClass="container" runat="server">
+        <div class="row">
+            <div class="col">
+                <h5>To override a section for a student:</h5>
+                <ol class="list-group">
+                    <li class="list-group-item">Select the semester and year using the dropdown above.</li>
+                    <li class="list-group-item">Select the school using the dropdown below.</li>
+                    <li class="list-group-item">Select the department using the dropdown below.</li>
+                    <li class="list-group-item">Select the course using the dropdown below.</li>
+                    <li class="list-group-item">Select the section from the list below.</li>
+                    <li class="list-group-item">Click on the Override button below.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="SchoolDD" class="col-form-label">School: </label>
+                <asp:DropDownList ID="SchoolDD" CssClass="form-control" OnSelectedIndexChanged="OnSchoolChanged" AutoPostBack="true" runat="server">
+                    <asp:ListItem Value="-1">-School-</asp:ListItem>
+                </asp:DropDownList>
+            </div>
+            <div class="col">
+                <label for="DepartmentDD" class="col-form-label">Department: </label>
+                <asp:DropDownList ID="DepartmentDD" CssClass="form-control" OnSelectedIndexChanged="OnDepartmentChanged" AutoPostBack="true" runat="server">
+                    <asp:ListItem Value="-1">-Department-</asp:ListItem>
+                </asp:DropDownList>
+            </div>
+            <div class="col">
+                <label for="CourseDD" class="col-form-label">Course: </label>
+                <asp:DropDownList ID="CourseDD" CssClass="form-control" OnSelectedIndexChanged="OnCourseChanged" AutoPostBack="true" runat="server">
+                    <asp:ListItem Value="-1">-Course-</asp:ListItem>
+                </asp:DropDownList>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <asp:Table ID="SectionTable" CssClass="table table-bordered table-striped" ClientIDMode="Static" runat="server"></asp:Table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <asp:RadioButtonList ID="SectionSelector" CssClass="form-control" RepeatDirection="Horizontal" ClientIDMode="Static" runat="server"></asp:RadioButtonList>
+            </div>
+        </div>
+        <div class="row mt-2 justify-content-center">
+            <div class="col">
+                <input type="button" class="btn btn-primary col-4" value="Override" onclick="overrideSection();"/>
+            </div>
+        </div>
     </asp:Panel>
-    <section>
-        <asp:Label ID="StatusLabel" Font-Bold="true" Font-Size="Large" ClientIDMode="Static" runat="server"></asp:Label>
-    </section>
+    <div>
+        <asp:Label ID="StatusLabel" CssClass="alert" Font-Bold="true" Font-Size="Large" ClientIDMode="Static" runat="server"></asp:Label>
+    </div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="footer" runat="server">
 </asp:Content>
