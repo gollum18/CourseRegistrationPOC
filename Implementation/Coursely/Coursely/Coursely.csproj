@@ -82,7 +82,7 @@
     <Content Include="Content\CSS\Main.css" />
     <Content Include="Content\JS\CourseValidation.js" />
     <Content Include="Content\JS\SectionValidation.js" />
-    <Content Include="Content\JS\UniversityValidation.js" />
+    <Content Include="Content\JS\Validation.js" />
     <Content Include="Content\JS\UserValidation.js" />
     <Content Include="Content\Web\Account.aspx" />
     <Content Include="Content\Web\Catalog.aspx" />
