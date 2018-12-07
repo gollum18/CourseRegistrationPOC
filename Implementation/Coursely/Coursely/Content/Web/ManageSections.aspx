@@ -61,7 +61,7 @@
                 <asp:Table ID="ScheduleView" CssClass="table table-bordered table-striped" ClientIDMode="Static" runat="server"></asp:Table>
             </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col">
                 <asp:Label ID="StatusLabel" CssClass="alert" Font-Bold="true" Font-Size="Large" ClientIDMode="Static" runat="server"></asp:Label>
             </div>

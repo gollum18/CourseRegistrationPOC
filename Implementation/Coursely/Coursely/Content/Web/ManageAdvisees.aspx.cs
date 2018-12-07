@@ -23,6 +23,9 @@ namespace Coursely.Content.Web
                 Response.Redirect("~/Content/Web/Home.aspx");
             }
 
+            Label title = Master.FindControl("LblTitle") as Label;
+            title.Text = "Coursely - Manage Advisees";
+
             LinkButton homelink = Master.FindControl("HomeLink") as LinkButton;
             homelink.Text = "Home";
             homelink.PostBackUrl = "~/Content/Web/Home.aspx";

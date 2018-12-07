@@ -49,6 +49,24 @@ namespace Coursely.Content.Web {
         protected global::System.Web.UI.WebControls.DropDownList SectionSelector;
         
         /// <summary>
+        /// SemesterSelector control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList SemesterSelector;
+        
+        /// <summary>
+        /// YearSelector control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList YearSelector;
+        
+        /// <summary>
         /// CourseArchived control.
         /// </summary>
         /// <remarks>
@@ -101,24 +119,6 @@ namespace Coursely.Content.Web {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox CourseDescription;
-        
-        /// <summary>
-        /// SemesterSelector control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList SemesterSelector;
-        
-        /// <summary>
-        /// YearSelector control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList YearSelector;
         
         /// <summary>
         /// SectionNumber control.

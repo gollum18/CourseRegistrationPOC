@@ -163,6 +163,20 @@
                 </asp:DropDownList>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <label for="SemesterSelector" class="col-form-label">Semester: </label>
+                <asp:DropDownList ID="SemesterSelector" CssClass="form-control" runat="server">
+                    <asp:ListItem Value="Fall">Fall</asp:ListItem>
+                    <asp:ListItem Value="Spring">Spring</asp:ListItem>
+                    <asp:ListItem Value="Summer">Summer</asp:ListItem>
+                </asp:DropDownList>
+            </div>
+            <div class="col">
+                <label for="YearSelector" class="col-form-label">Year: </label>
+                <asp:DropDownList ID="YearSelector" CssClass="form-control" runat="server"></asp:DropDownList>
+            </div>
+        </div>
     </section>
     <section id="CourseView" class="tab-content container">
         <div class="row">
@@ -201,20 +215,6 @@
         </div>
     </section>
     <section id="SectionView" class="tab-content container" style="display:none;">
-        <div class="row">
-            <div class="col">
-                <label for="SemesterSelector" class="col-form-label">Semester: </label>
-                <asp:DropDownList ID="SemesterSelector" CssClass="form-control" runat="server">
-                    <asp:ListItem Value="Fall">Fall</asp:ListItem>
-                    <asp:ListItem Value="Spring">Spring</asp:ListItem>
-                    <asp:ListItem Value="Summer">Summer</asp:ListItem>
-                </asp:DropDownList>
-            </div>
-            <div class="col">
-                <label for="YearSelector" class="col-form-label">Year: </label>
-                <asp:DropDownList ID="YearSelector" CssClass="form-control" runat="server"></asp:DropDownList>
-            </div>
-        </div>
         <div class="row">
             <div class="col">
                 <label for="SectionNumber" class="col-form-label">Number: </label>

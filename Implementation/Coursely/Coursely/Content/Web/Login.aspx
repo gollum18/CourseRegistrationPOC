@@ -34,8 +34,11 @@
         <div class="form-group row">
             <input type="button" class="form-control btn btn-primary" id="ButtonLogin" onclick="validateLogin();" value="Login"/>
         </div>
+        <div class="form-group row">
+            <asp:Label ID="StatusLabel" Font-Bold="true" Font-Size="Large" ClientIDMode="Static" ForeColor="Red" runat="server"></asp:Label>
+        </div>
     </div>
-    <asp:Label ID="StatusLabel" Font-Bold="true" Font-Size="Large" ClientIDMode="Static" ForeColor="Red" runat="server"></asp:Label>
+    
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="footer" runat="server">
 </asp:Content>

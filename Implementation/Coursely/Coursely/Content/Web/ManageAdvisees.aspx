@@ -99,19 +99,6 @@
     <asp:Panel ID="OverrideView" CssClass="container" runat="server">
         <div class="row">
             <div class="col">
-                <h5>To override a section for a student:</h5>
-                <ol class="list-group">
-                    <li class="list-group-item">Select the semester and year using the dropdown above.</li>
-                    <li class="list-group-item">Select the school using the dropdown below.</li>
-                    <li class="list-group-item">Select the department using the dropdown below.</li>
-                    <li class="list-group-item">Select the course using the dropdown below.</li>
-                    <li class="list-group-item">Select the section from the list below.</li>
-                    <li class="list-group-item">Click on the Override button below.</li>
-                </ol>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
                 <label for="SchoolDD" class="col-form-label">School: </label>
                 <asp:DropDownList ID="SchoolDD" CssClass="form-control" OnSelectedIndexChanged="OnSchoolChanged" AutoPostBack="true" runat="server">
                     <asp:ListItem Value="-1">-School-</asp:ListItem>

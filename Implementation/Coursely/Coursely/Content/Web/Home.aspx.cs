@@ -44,7 +44,7 @@ namespace Coursely.Content.Web
             else if (role.Equals(Classes.User.STUDENT))
             {
                 MenuStudent.Visible = true;
-                header.Text = "Coursely - Admin Home";
+                header.Text = "Coursely - Student Home";
             }
         }
 

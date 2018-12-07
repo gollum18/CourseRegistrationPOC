@@ -74,7 +74,7 @@ namespace Coursely.Content.Web
             }
 
             Label title = Master.FindControl("LblTitle") as Label;
-            title.Text = "Coursely - Manage Account";
+            title.Text = "Coursely - Enroll for Class";
 
             LinkButton homelink = Master.FindControl("HomeLink") as LinkButton;
             homelink.PostBackUrl = "~/Content/Web/Home.aspx";

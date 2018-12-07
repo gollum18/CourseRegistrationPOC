@@ -271,10 +271,10 @@ namespace Coursely.Content.Web
                 SectionNumber.Text = section.Number;
                 SectionEnrollment.Text = section.MaxEnrollment.ToString();
                 SectionRoom.Text = section.Room.ToString();
-                SectionStartDate.Text = section.StartDateAndTime.ToString("yyyyMMdd");
-                SectionStartTime.Text = section.StartDateAndTime.ToString("yyyyMMdd");
-                SectionEndDate.Text = section.EndDateAndTime.ToString("hh:mm tt");
-                SectionEndTime.Text = section.EndDateAndTime.ToString("hh:mm tt");
+                SectionStartDate.Text = string.Format("{0:yyyy-MM-dd}", section.StartDateAndTime);
+                SectionStartTime.Text = string.Format("{0:hh:mm}", section.EndDateAndTime);
+                SectionEndDate.Text = string.Format("{0:yyyy-MM-dd}", section.EndDateAndTime);
+                SectionEndTime.Text = string.Format("{0:hh:mm}", section.EndDateAndTime);
                 IEnumerator<string> days = section.GetDays();
                 while (days.MoveNext())
                 {
@@ -631,6 +631,10 @@ namespace Coursely.Content.Web
                             int.Parse(SectionEnrollment.Text), days, instructors))
                         {
                             WebControls.SetLabel(StatusLabel, WebControls.RED, "Error: There was an issue modifying the section!");
+                        }
+                        else
+                        {
+                            WebControls.SetLabel(StatusLabel, WebControls.GREEN, "Section successfully modified!");
                         }
                         days = null;
                         instructors = null;

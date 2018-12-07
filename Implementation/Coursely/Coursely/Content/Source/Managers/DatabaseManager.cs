@@ -3893,8 +3893,10 @@ namespace Coursely.Content.Managers
                             comm.Parameters.AddWithValue("@3", startDateAndTime);
                             comm.Parameters.AddWithValue("@4", endDateAndTime);
                             comm.Parameters.AddWithValue("@5", maxEnrollment);
-                            comm.ExecuteNonQuery();
-                            result = true;
+                            if (comm.ExecuteNonQuery() > 0)
+                            {
+                                result = true;
+                            }
                         }
                     }
                 }
@@ -3930,6 +3932,7 @@ namespace Coursely.Content.Managers
                 {
                     using (SqlConnection conn = new SqlConnection(ConnectionString))
                     {
+                        conn.Open();
                         using (SqlCommand comm = new SqlCommand(
                             "DELETE FROM SectionDays WHERE SectionID = @0", conn))
                         {
@@ -3944,6 +3947,7 @@ namespace Coursely.Content.Managers
                                 comm.Parameters.AddWithValue("@0", sectionID);
                                 comm.Parameters.AddWithValue("@1", day);
                                 comm.ExecuteNonQuery();
+                                comm.Parameters.Clear();
                             }
                             result = true;
                         }
@@ -3980,6 +3984,7 @@ namespace Coursely.Content.Managers
                 {
                     using (SqlConnection conn = new SqlConnection(ConnectionString))
                     {
+                        conn.Open();
                         using (SqlCommand comm = new SqlCommand(
                             "DELETE FROM SectionInstructors WHERE SectionID = @0", conn))
                         {
@@ -3994,6 +3999,7 @@ namespace Coursely.Content.Managers
                                 comm.Parameters.AddWithValue("@0", sectionID);
                                 comm.Parameters.AddWithValue("@1", instructor);
                                 comm.ExecuteNonQuery();
+                                comm.Parameters.Clear();
                             }
                             result = true;
                         }
