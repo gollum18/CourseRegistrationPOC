@@ -40,13 +40,13 @@ namespace Coursely.Content.Web {
         protected global::System.Web.UI.HtmlControls.HtmlInputText NameTextBox;
         
         /// <summary>
-        /// CurrentEmailTextBox control.
+        /// EmailTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl CurrentEmailTextBox;
+        protected global::System.Web.UI.WebControls.TextBox EmailTextBox;
         
         /// <summary>
         /// NewEmailTextBox control.
@@ -55,7 +55,7 @@ namespace Coursely.Content.Web {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl NewEmailTextBox;
+        protected global::System.Web.UI.WebControls.TextBox NewEmailTextBox;
         
         /// <summary>
         /// ConfirmEmailTextBox control.
@@ -64,7 +64,7 @@ namespace Coursely.Content.Web {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl ConfirmEmailTextBox;
+        protected global::System.Web.UI.WebControls.TextBox ConfirmEmailTextBox;
         
         /// <summary>
         /// CurrentPasswordTextBox control.

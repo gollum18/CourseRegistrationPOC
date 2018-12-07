@@ -34,7 +34,7 @@
          * 
          */
         function updateEmail() {
-            var oldEmail = $("#CurrentEmailTextBox").val();
+            var oldEmail = $("#EmailTextBox").val();
             var newEmail = $("#NewEmailTextBox").val();
             var confirmEmail = $("#ConfirmEmailTextBox").val();
             var validationResult = null;
@@ -91,15 +91,15 @@
         <div class="row">
             <div class="col">
                 <label for="EmailTextBox" class="col-form-label">Email: </label>
-                <input id="CurrentEmailTextBox" class="form-control" type="email" readonly="readonly" runat="server"/>
+                <asp:TextBox ID="EmailTextBox" CssClass="form-control" ReadOnly="true" ClientIDMode="Static" TextMode="Email" runat="server"></asp:TextBox>
             </div>
             <div class="col">
                 <label for="NewEmailTextBox" class="col-form-label">New Email: </label>
-                <input id="NewEmailTextBox" class="form-control" type="email" runat="server"/>
+                <asp:TextBox ID="NewEmailTextBox" CssClass="form-control" ClientIDMode="Static" TextMode="Email" runat="server"></asp:TextBox>
             </div>
             <div class="col">
                 <label for="ConfirmEmailTextBox" class="col-form-label">Confirm Email: </label>
-                <input id="ConfirmEmailTextBox" class="form-control" type="email" runat="server"/>
+                <asp:TextBox ID="ConfirmEmailTextBox" CssClass="form-control" ClientIDMode="Static" TextMode="Email" runat="server"></asp:TextBox>
             </div>
         </div>
         <div class="row justify-content-center">

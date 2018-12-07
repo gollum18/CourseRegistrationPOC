@@ -37,7 +37,7 @@ namespace Coursely.Content.Web
             // Load in the user's information
             UnivIDTextBox.Value = user.UnivID;
             NameTextBox.Value = $"{user.LastName}, {user.FirstName}";
-            CurrentEmailTextBox.Value = user.Email;
+            EmailTextBox.Text = user.Email;
             RoleTextBox.Value = user.Role;
 
             // Reset the error label
@@ -81,13 +81,13 @@ namespace Coursely.Content.Web
         {
             try
             {
-                if (UserManager.InstanceOf().GetEmail(UnivIDTextBox.Value).Equals(CurrentEmailTextBox.Value))
+                if (UserManager.InstanceOf().GetEmail(UnivIDTextBox.Value).Equals(EmailTextBox.Text))
                 {
-                    if (NewEmailTextBox.Value.Equals(ConfirmEmailTextBox.Value))
+                    if (NewEmailTextBox.Text.Equals(ConfirmEmailTextBox.Text))
                     {
-                        if (Validation.ValidateEmail(NewEmailTextBox.Value))
+                        if (Validation.ValidateEmail(NewEmailTextBox.Text))
                         {
-                            if (UserManager.InstanceOf().ChangeEmail(UnivIDTextBox.Value, NewEmailTextBox.Value))
+                            if (UserManager.InstanceOf().ChangeEmail(UnivIDTextBox.Value, NewEmailTextBox.Text))
                             {
                                 WebControls.SetLabel(StatusLabel, Color.Green, "Email changed successfully!");
                             }
